@@ -1,6 +1,6 @@
 # Etoro-Screener
-Summary -
-This repo allows the following functions --->
+Summary -<br>
+This repo allows the following functions ---><br>
 
 # 1.
 ----> effective real-time tracking of etoro-portfolios through the use of Chromium webdrivers <br>
