@@ -3,7 +3,7 @@ Summary -
 This repo allows the following functions --->
 
 # 1.
-----> effective real-time tracking of etoro-portfolios through the use of Chromium webdrivers
+----> effective real-time tracking of etoro-portfolios through the use of Chromium webdrivers <br>
 ----> ability to collate portfolio data to generate statistical analysis, average positions, most common positions, long to short ratios, and plot the change in shareholder ownership.
 ----> ability to locate the liquidation levels of specific users as well as average liquidation levels across the whole set of users.
 ----> identify in real-time what trades are the most popular, and which are performing the best, worst and which are not garnerning much attention.
