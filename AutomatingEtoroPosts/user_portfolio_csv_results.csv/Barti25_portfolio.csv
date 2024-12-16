@@ -1,0 +1,18 @@
+Ticker,Ticker_Long_Form,Direction,Exposure (%),P/L (%),Total Value (%),Username
+HBAR,Hedera Hashgraph,Long,41.16,158.06,55.2,Barti25
+LINK,Chainlink,Long,20.27,51.33,15.94,Barti25
+XRP,XRP,Long,11.22,129.54,13.38,Barti25
+GALA,Gala V2,Long,4.77,-25.08,1.86,Barti25
+ARB,Arbitrum,Long,4.73,-22.07,1.92,Barti25
+MIOTA,IOTA,Long,2.21,-20.75,0.91,Barti25
+NEAR,Near Protocol,Long,1.97,12.32,1.15,Barti25
+OP,Optimism,Long,1.93,20.42,1.21,Barti25
+RENDER,Render Token,Long,1.91,34.84,1.34,Barti25
+DOT,Polkadot,Long,1.87,42.74,1.39,Barti25
+POL,Polygon Ecosystem (ex Matic),Long,1.74,-50.18,0.45,Barti25
+AVAX,Avalanche,Long,1.71,66.53,1.48,Barti25
+XLM,Stellar,Long,1.61,-12.06,0.73,Barti25
+ADA,Cardano,Long,1.47,44.91,1.11,Barti25
+ALGO,Algorand,Long,1.37,170.58,1.93,Barti25
+MNODL.L,MMC Norilsk Nickel OJSC-ADR,Long,0.05,-98.72,0.01,Barti25
+SOL,Solana,Long,0.02,-9.21,0.01,Barti25

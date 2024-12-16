@@ -1,0 +1,12 @@
+Ticker,Ticker_Long_Form,Direction,Exposure (%),P/L (%),Total Value (%),Username
+PEP,PepsiCo,Long,10.06,-9.54,8.57,bjorncrienen
+CAT,Caterpillar,Long,9.72,13.71,10.4,bjorncrienen
+GOOG,Alphabet,Long,9.17,57.39,13.59,bjorncrienen
+TEX,Terex Corporation,Long,8.95,-13.77,7.27,bjorncrienen
+PG,Procter & Gamble Co,Long,8.51,17.41,9.4,bjorncrienen
+KO,Coca-Cola,Long,8.49,-3.28,7.73,bjorncrienen
+BABA,Alibaba-ADR,Long,7.0,7.46,7.08,bjorncrienen
+JNJ,Johnson & Johnson,Long,6.99,-10.04,5.92,bjorncrienen
+ABT,Abbott Laboratories,Long,6.42,2.37,6.18,bjorncrienen
+MO,Altria Group Inc,Long,5.89,8.52,6.02,bjorncrienen
+CVX,Chevron,Long,4.2,3.72,4.1,bjorncrienen
