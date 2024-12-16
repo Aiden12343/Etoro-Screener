@@ -32,13 +32,13 @@ This repo allows the following functions --->
 # Additional Notes
 It is not advised for one to load more than 40 tickers/usernames at any given time, as eToro will detect and likely sign you out or force-crash to block your automated process.
 
-# There is currently a bug with --headless flags in both scripts, where the JS tags are not identified when running in --headless. 
-# The workaround is to use pyautogui to load the browser in another virtual destop for windows, and then switch back to the main whilst it processes.
+There is currently a bug with --headless flags in both scripts, where the JS tags are not identified when running in --headless. 
+ The workaround is to use pyautogui to load the browser in another virtual destop for windows, and then switch back to the main whilst it processes.
 
 # Future updates
 
-# ----> Support for tracking Stop Losses of specific assets
-# ----> Support for filtering by leveraged assets only
-# ----> Support for tracking historical closed positions
-# ----> Plotting active and historical positions of average portfolios for different assets against the relevant chart.
-# ----> Ability to reverse a specific users portfolio, link to an automated trading system which trades the inverse.
+----> Support for tracking Stop Losses of specific assets
+----> Support for filtering by leveraged assets only
+----> Support for tracking historical closed positions
+----> Plotting active and historical positions of average portfolios for different assets against the relevant chart.
+----> Ability to reverse a specific users portfolio, link to an automated trading system which trades the inverse.
