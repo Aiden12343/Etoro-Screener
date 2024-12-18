@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Summary</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        .positive { color: green; }
+        .negative { color: red; }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Portfolio Summary</h1>
+        <table class="table table-bordered mt-3">
+            <thead>
+                <tr>
+                    <th>
+                        Ticker
+                        <button class="btn btn-sm btn-outline-secondary sort-btn" data-column="0" data-order="asc">
+                            <i class="fas fa-sort"></i>
+                        </button>
+                    </th>
+                    <th>
+                        Direction (Long:Short Ratio)
+                        <button class="btn btn-sm btn-outline-secondary sort-btn" data-column="1" data-order="asc">
+                            <i class="fas fa-sort"></i>
+                        </button>
+                    </th>
+                    <th>
+                        Avg. Invested
+                        <button class="btn btn-sm btn-outline-secondary sort-btn" data-column="2" data-order="asc">
+                            <i class="fas fa-sort"></i>
+                        </button>
+                    </th>
+                    <th>
+                        Avg. NetProfit
+                        <button class="btn btn-sm btn-outline-secondary sort-btn" data-column="3" data-order="asc">
+                            <i class="fas fa-sort"></i>
+                        </button>
+                    </th>
+                    <th>
+                        Avg. Value
+                        <button class="btn btn-sm btn-outline-secondary sort-btn" data-column="4" data-order="asc">
+                            <i class="fas fa-sort"></i>
+                        </button>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in data %}
+                    <tr>
+                        <tbody>
+                            {% for row in data %}
+                                <tr>
+                                    <td>{{ row.Ticker }}</td>
+                                    <td>{{ row.Direction }}</td>
+                                    <td class="{{ row.InvestedClass }}">{{ row.AvgInvested }}</td>
+                                    <td class="{{ row.NetProfitClass }}">{{ row.AvgNetProfit }}</td>
+                                    <td class="{{ row.ValueClass }}">{{ row.AvgValue }}</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>                        
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Include jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Sorting functionality
+        $(document).on('click', '.sort-btn', function() {
+            const columnIndex = parseInt($(this).data('column')); // Get the column index
+            const sortOrder = $(this).data('order'); // Get current sort order
+            const tableBody = $('table tbody');
+            const rows = tableBody.find('tr').toArray();
+
+            // Sort rows
+            rows.sort((a, b) => {
+                const aText = $(a).children('td').eq(columnIndex).text().trim().replace('%', '');
+                const bText = $(b).children('td').eq(columnIndex).text().trim().replace('%', '');
+
+                // Check for numeric values
+                const aValue = $.isNumeric(aText) ? parseFloat(aText) : aText;
+                const bValue = $.isNumeric(bText) ? parseFloat(bText) : bText;
+
+                // Sort based on order
+                if (sortOrder === 'asc') {
+                    return aValue > bValue ? 1 : -1;
+                } else {
+                    return aValue < bValue ? 1 : -1;
+                }
+            });
+
+            // Append sorted rows back to table
+            tableBody.empty().append(rows);
+
+            // Toggle sort order for next click
+            $(this).data('order', sortOrder === 'asc' ? 'desc' : 'asc');
+
+            // Update sort icon
+            $('.sort-btn i').removeClass('fa-sort-up fa-sort-down').addClass('fa-sort');
+            $(this).find('i').removeClass('fa-sort').addClass(sortOrder === 'asc' ? 'fa-sort-down' : 'fa-sort-up');
+        });
+    </script>
+</body>
+</html>

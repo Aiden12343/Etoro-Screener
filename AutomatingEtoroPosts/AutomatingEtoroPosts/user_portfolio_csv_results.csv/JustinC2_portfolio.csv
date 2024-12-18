@@ -1,0 +1,55 @@
+Ticker,Ticker_Long_Form,Direction,Exposure (%),P/L (%),Total Value (%),Username
+BIDU,"Baidu, Inc.-ADR",Long,4.08,-17.19,2.5,JustinC2
+META,Meta Platforms Inc,Long,3.81,11.5,3.15,JustinC2
+PDD,PDD Holdings Inc-ADR,Long,3.26,-27.84,1.75,JustinC2
+Z,Zillow Group Inc,Long,3.26,39.85,3.38,JustinC2
+RIVN,Rivian Automotive,Long,3.13,31.3,3.04,JustinC2
+UMG.NV,Universal Music Group N.V,Long,3.13,2.96,2.39,JustinC2
+ETH,Ethereum,Long,3.12,52.95,3.53,JustinC2
+MSFT,Microsoft,Long,2.99,17.36,2.6,JustinC2
+NNDM,Nano Dimension Ltd-ADR,Long,2.86,-15.51,1.79,JustinC2
+CRWD,Crowdstrike Holdings,Long,2.84,65.45,3.49,JustinC2
+COIN,Coinbase Global Inc,Long,2.78,150.83,5.18,JustinC2
+9988.HK,Alibaba Group Holding Ltd (Hong Kong),Long,2.61,4.75,2.03,JustinC2
+NTLA,Intellia Therapeutics Inc,Long,2.59,-3.71,1.85,JustinC2
+SEDG,SolarEdge Technologies,Long,2.04,4.41,1.58,JustinC2
+ENPH,Enphase Energy Inc.,Long,1.9,18.5,1.67,JustinC2
+RDFN,Redfin Corp,Long,1.9,-7.65,1.3,JustinC2
+BTC,Bitcoin,Long,1.89,304.37,5.67,JustinC2
+DOCU,DocuSign Inc,Long,1.82,71.56,2.32,JustinC2
+ADA,Cardano,Long,1.75,110.18,2.72,JustinC2
+9866.HK,NIO Inc Class A,Long,1.65,-43.65,0.69,JustinC2
+GOOG,Alphabet,Long,1.63,28.76,1.56,JustinC2
+ADBE,Adobe Systems Inc,Long,1.63,-12.78,1.06,JustinC2
+STNE,StoneCo Ltd A,Long,1.63,-8.03,1.11,JustinC2
+U,Unity Software Inc.,Long,1.5,18.47,1.32,JustinC2
+ORSTED.CO,Orsted A/S,Long,1.5,-19.0,0.9,JustinC2
+HOOD,Robinhood Markets Inc.,Long,1.49,298.48,4.42,JustinC2
+SSYS.US,Stratasys Ltd,Long,1.49,31.74,1.46,JustinC2
+SOL,Solana,Long,1.4,37.08,1.42,JustinC2
+CSIQ,Canadian Solar Inc.,Long,1.36,-10.79,0.9,JustinC2
+SOFI,SoFi Technologies Inc,Long,1.36,89.13,1.91,JustinC2
+ARKK,ARK Innovation ETF,Long,1.36,60.83,1.62,JustinC2
+PARA,Paramount Global,Long,1.36,-1.31,1.0,JustinC2
+NBIS,Nebius Group NV,Long,1.36,44.68,1.46,JustinC2
+QQQ,Invesco QQQ,Long,1.36,2.0,1.03,JustinC2
+00981.HK,Semiconductor Manufacturing International Corporation,Long,1.33,-8.97,0.9,JustinC2
+INTC,Intel,Long,1.09,-8.49,0.74,JustinC2
+FCX,Freeport-McMoRan Inc,Long,1.09,-18.29,0.66,JustinC2
+SPY,SPDR S&P 500 ETF,Long,1.09,-0.55,0.8,JustinC2
+TSLA,"Tesla Motors, Inc.",Long,1.09,103.2,1.64,JustinC2
+DOYU,Douyu -ADR,Long,1.04,14.05,0.88,JustinC2
+UBS,UBS Group AG,Long,0.97,29.72,0.93,JustinC2
+ALGN,Align Technology Inc,Long,0.95,10.41,0.78,JustinC2
+XRP,XRP,Long,0.84,316.63,2.59,JustinC2
+FVRR,Fiverr International,Long,0.82,22.9,0.74,JustinC2
+AI,C3.ai Inc.,Long,0.82,10.64,0.67,JustinC2
+BA,Boeing,Long,0.82,7.17,0.65,JustinC2
+C,Citigroup,Long,0.82,7.91,0.65,JustinC2
+DELL,Dell Technologies Inc C,Long,0.82,-12.84,0.53,JustinC2
+BIL,SPDR Bloomberg Barclays 1-3 Month T-Bill ETF,Long,0.82,-0.3,0.6,JustinC2
+SHOP,Shopify Inc.,Long,0.8,96.36,1.17,JustinC2
+HBAR,Hedera Hashgraph,Long,0.75,-16.6,0.46,JustinC2
+PLTR,Palantir Technologies Inc.,Long,0.69,332.93,2.2,JustinC2
+GEV,GE Vernova LLC,Long,0.41,140.09,0.73,JustinC2
+MSTR,MicroStrategy Incorporated,Long,0.24,620.27,1.29,JustinC2

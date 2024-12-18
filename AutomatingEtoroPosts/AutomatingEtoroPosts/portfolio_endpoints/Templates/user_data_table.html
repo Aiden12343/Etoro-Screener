@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #4CAF50;
+        }
+
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        td {
+            color: #555;
+        }
+
+        /* Responsive design for smaller screens */
+        @media screen and (max-width: 600px) {
+            table {
+                width: 100%;
+                margin: 10px;
+            }
+
+            th, td {
+                padding: 10px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Data for {{ username }}</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Ticker</th>
+                <th>Direction</th>
+                <th>Invested</th>
+                <th>NetProfit</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in user_data %}
+            <tr>
+                <td>{{ row['Ticker'] }}</td>
+                <td>{{ row['Direction'] }}</td>
+                <td>{{ row['Invested'] }}</td>
+                <td>{{ row['NetProfit'] }}</td>
+                <td>{{ row['Value'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

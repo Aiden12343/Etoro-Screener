@@ -1,0 +1,55 @@
+Ticker,Ticker_Long_Form,Direction,Exposure (%),P/L (%),Total Value (%),Username
+ETH,Ethereum,Long,12.15,22.86,10.94,Mustang295
+TSLA,"Tesla Motors, Inc.",Long,6.4,95.74,9.17,Mustang295
+AMZN,Amazon.com Inc,Long,6.4,24.25,5.82,Mustang295
+GOOG,Alphabet,Long,5.76,19.53,5.04,Mustang295
+META,Meta Platforms Inc,Long,4.16,25.23,3.82,Mustang295
+BTC,Bitcoin,Long,3.84,507.61,17.09,Mustang295
+HOOD,Robinhood Markets Inc.,Long,3.84,27.5,3.59,Mustang295
+CRSP,CRISPR Therapeutics AG,Long,3.09,-19.49,1.82,Mustang295
+MC.PA,LVMH Moet Hennessy Louis Vuitton SA,Long,3.07,2.29,2.3,Mustang295
+ABBV,AbbVie Inc,Long,2.69,-3.53,1.9,Mustang295
+SOL,Solana,Long,2.56,-2.93,1.82,Mustang295
+BMY,Bristol-Myers Squibb Co,Long,1.98,10.26,1.6,Mustang295
+ASML,ASML Holding NV - ADR,Long,1.98,3.19,1.5,Mustang295
+ELF,elf Beauty Inc,Long,1.92,-10.39,1.26,Mustang295
+FET,Fetch.ai,Long,1.92,24.27,1.75,Mustang295
+ENVX,Enovix Corporation,Long,1.92,-28.86,1.0,Mustang295
+PYPL,PayPal Holdings,Long,1.79,37.47,1.8,Mustang295
+AMD,Advanced Micro Devices Inc,Long,1.79,-22.16,1.02,Mustang295
+LHX,L3Harris,Long,1.66,-14.64,1.04,Mustang295
+TSM,Taiwan Semiconductor Manufacturing Co Ltd - ADR,Long,1.6,12.16,1.31,Mustang295
+XRP,XRP,Long,1.6,11.81,1.31,Mustang295
+FANG,Diamondback Energy Inc,Long,1.53,-11.27,1.0,Mustang295
+COTI,COTI,Long,1.34,-0.1,0.98,Mustang295
+HBAR,Hedera Hashgraph,Long,1.3,89.61,1.8,Mustang295
+NOC,Northrop Grumman Corp,Long,1.28,-0.18,0.94,Mustang295
+CELH,Celsius Holdings Inc.,Long,1.28,-13.54,0.81,Mustang295
+JPM,JPMorgan Chase & Co,Long,1.28,-0.18,0.94,Mustang295
+ADA,Cardano,Long,1.19,174.37,2.4,Mustang295
+SKL,Skale Network,Long,1.04,-31.33,0.52,Mustang295
+AMP,Amp,Long,1.04,39.0,1.06,Mustang295
+SOFI,SoFi Technologies Inc,Long,1.03,108.61,1.58,Mustang295
+NIO,Nio Inc.-ADR,Long,1.02,-41.33,0.44,Mustang295
+TDG,Transdigm Group Incorporated,Long,0.96,-5.15,0.67,Mustang295
+COIN,Coinbase Global Inc,Long,0.96,26.65,0.89,Mustang295
+MARA,Marathon Digital Holdings Inc.,Long,0.9,-15.11,0.56,Mustang295
+GRT,The Graph,Long,0.87,-38.74,0.39,Mustang295
+THETA,Theta,Long,0.83,-9.87,0.55,Mustang295
+GE,General Electric Co,Long,0.83,-10.71,0.54,Mustang295
+DOT,Polkadot,Long,0.77,32.29,0.74,Mustang295
+CCJ,Cameco Corp,Long,0.77,0.99,0.57,Mustang295
+GALA,Gala V2,Long,0.72,-6.92,0.49,Mustang295
+LRC,Loopring,Long,0.72,-16.51,0.44,Mustang295
+GPCR,Structure Therapeutics Inc,Long,0.71,-14.9,0.44,Mustang295
+ANKR,Ankr,Long,0.64,65.93,0.78,Mustang295
+TIA,Celestia,Long,0.56,-36.09,0.26,Mustang295
+AXL,Axelar,Long,0.51,5.01,0.39,Mustang295
+JASMY,Jasmy,Long,0.43,37.19,0.43,Mustang295
+CDLX,Cardlytics Inc,Long,0.39,-15.66,0.24,Mustang295
+BITF,Bitfarms Ltd,Long,0.38,-30.92,0.19,Mustang295
+STORJ,Storj,Long,0.37,-21.13,0.21,Mustang295
+ONDO,Ondo Finance,Long,0.34,86.68,0.46,Mustang295
+ALGO,Algorand,Long,0.26,-14.14,0.16,Mustang295
+JTO,Jito,Long,0.06,-6.64,0.04,Mustang295
+MRTX.CVR,Mirati Therapeutics Inc Merger CVR,Long,0.0,0.0,0.0,Mustang295

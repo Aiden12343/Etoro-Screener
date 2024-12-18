@@ -1,0 +1,22 @@
+Ticker,Ticker_Long_Form,Direction,Exposure (%),P/L (%),Total Value (%),Username
+AMD,Advanced Micro Devices Inc,Long,12.6,31.21,6.68,diogocostarocha
+ENPH,Enphase Energy Inc.,Long,9.05,-7.0,3.4,diogocostarocha
+META,Meta Platforms Inc,Long,7.78,302.98,12.66,diogocostarocha
+NKE,NIKE,Long,6.46,-3.24,2.52,diogocostarocha
+NVDA,NVIDIA Corporation,Long,5.88,709.02,19.21,diogocostarocha
+PLTR,Palantir Technologies Inc.,Long,5.62,655.23,17.14,diogocostarocha
+TSLA,"Tesla Motors, Inc.",Long,5.49,213.87,6.96,diogocostarocha
+AMZN,Amazon.com Inc,Long,5.17,131.8,4.84,diogocostarocha
+PYPL,PayPal Holdings,Long,4.52,54.39,2.82,diogocostarocha
+CRSR,Corsair Gaming Inc,Long,4.52,-35.78,1.17,diogocostarocha
+ADA,Cardano,Long,4.0,81.51,2.93,diogocostarocha
+INTC,Intel,Long,3.88,-15.01,1.33,diogocostarocha
+SHOP,Shopify Inc.,Long,3.88,205.04,4.78,diogocostarocha
+ELF,elf Beauty Inc,Long,3.68,42.76,2.12,diogocostarocha
+GOOG,Alphabet,Long,3.23,99.3,2.6,diogocostarocha
+VTI,Vanguard Total Stock Market ETF,Long,2.91,46.59,1.72,diogocostarocha
+SPY,SPDR S&P 500 ETF,Long,2.65,48.48,1.59,diogocostarocha
+MSFT,Microsoft,Long,2.58,84.5,1.93,diogocostarocha
+WBA,Walgreens Boots Alliance Inc,Long,0.97,-44.05,0.22,diogocostarocha
+ETH,Ethereum,Long,0.78,148.91,0.78,diogocostarocha
+BTC,Bitcoin,Long,0.78,268.43,1.15,diogocostarocha
