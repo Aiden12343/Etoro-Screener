@@ -1,0 +1,42 @@
+Ticker,Ticker_Long_Form,Direction,Exposure (%),P/L (%),Total Value (%),Username
+TSLA,"Tesla Motors, Inc.",Long,34.77,84.16,43.77,j_davis2021
+ADA,Cardano,Long,9.14,-30.71,4.33,j_davis2021
+BTC,Bitcoin,Long,7.73,143.03,12.83,j_davis2021
+DJT,Trump Media & Technology Group,Long,4.64,-54.95,1.43,j_davis2021
+ETH,Ethereum,Long,4.47,71.96,5.26,j_davis2021
+SOL,Solana,Long,2.34,-3.72,1.54,j_davis2021
+AMD,Advanced Micro Devices Inc,Long,2.32,46.97,2.33,j_davis2021
+PLTR,Palantir Technologies Inc.,Long,2.32,26.11,2.0,j_davis2021
+MSTR,MicroStrategy Incorporated,Long,2.32,-13.73,1.37,j_davis2021
+TTWO,Take Two Interactive Software Inc,Long,2.32,20.53,1.91,j_davis2021
+XLM,Stellar,Long,2.32,-2.34,1.55,j_davis2021
+NVDA,NVIDIA Corporation,Long,2.32,330.21,6.82,j_davis2021
+MANA,Decentraland,Long,2.32,-68.56,0.5,j_davis2021
+XRP,XRP,Long,2.32,240.15,5.39,j_davis2021
+JASMY,Jasmy,Long,1.85,21.65,1.54,j_davis2021
+POL,Polygon Ecosystem (ex Matic),Long,1.39,-58.85,0.39,j_davis2021
+XTZ,Tezos,Long,1.39,-49.59,0.48,j_davis2021
+FET,Fetch.ai,Long,1.27,-32.32,0.59,j_davis2021
+BAT,Basic Attention Token,Long,1.16,-74.36,0.2,j_davis2021
+ENJ,Enjin,Long,1.16,-89.17,0.09,j_davis2021
+DOGE,Dogecoin,Long,1.04,33.21,0.95,j_davis2021
+AAVE,Aave,Long,0.81,27.44,0.71,j_davis2021
+U,Unity Software Inc.,Long,0.81,-73.95,0.14,j_davis2021
+EOS,EOS,Long,0.7,-83.8,0.08,j_davis2021
+S.US,SentinelOne Inc.,Long,0.7,13.71,0.54,j_davis2021
+MCD,McDonald's,Long,0.58,0.01,0.4,j_davis2021
+IWM,Ishares Russell 2000 ETF,Long,0.58,-2.43,0.39,j_davis2021
+SKL,Skale Network,Long,0.46,-34.81,0.21,j_davis2021
+RBLX,Roblox Corp.,Long,0.46,-8.71,0.29,j_davis2021
+ARKK,ARK Innovation ETF,Long,0.46,-14.49,0.27,j_davis2021
+LINK,Chainlink,Long,0.46,34.95,0.43,j_davis2021
+SAND,The Sandbox,Long,0.46,-79.3,0.07,j_davis2021
+UNI,Uniswap,Long,0.35,19.59,0.28,j_davis2021
+COMP,Compound,Long,0.35,-78.39,0.05,j_davis2021
+META,Meta Platforms Inc,Long,0.35,26.21,0.3,j_davis2021
+FCEL,FuelCell Energy Inc,Long,0.3,-97.72,0.01,j_davis2021
+LAC,Lithium Americas Corp,Long,0.23,-90.54,0.01,j_davis2021
+LIT,Global X Lithium & Battery Tech ETF,Long,0.23,-52.64,0.08,j_davis2021
+DOCU,DocuSign Inc,Long,0.12,-66.12,0.03,j_davis2021
+LUNA2,Terra 2.0,Long,0.01,0.0,0.01,j_davis2021
+LAAC,Lithium Americas Argentina C,Long,0.0,0.0,0.01,j_davis2021

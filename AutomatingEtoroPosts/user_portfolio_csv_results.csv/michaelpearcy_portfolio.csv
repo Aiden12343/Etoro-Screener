@@ -1,0 +1,10 @@
+Ticker,Ticker_Long_Form,Direction,Exposure (%),P/L (%),Total Value (%),Username
+NSDQ100,NASDAQ100 Index (Non Expiry),Short,63.77,-44.38,30.89,michaelpearcy
+BABA,Alibaba-ADR,Long,9.12,-8.3,12.19,michaelpearcy
+03690.HK,Meituan Class B,Long,5.21,-7.37,7.03,michaelpearcy
+9618.HK,JD.com Inc,Long,5.21,-10.03,6.83,michaelpearcy
+PAH3.DE,Porsche Automobil Holding SE,Long,3.26,-14.91,4.04,michaelpearcy
+VOW.DE,VOLKSWAGEN AG,Long,3.26,-12.08,4.17,michaelpearcy
+00175.HK,Geely Automobile Holdings Ltd,Long,2.61,27.03,4.82,michaelpearcy
+TAN,Invesco Solar ETF,Long,2.61,-20.65,3.01,michaelpearcy
+VALE,Vale SA-ADR,Long,2.61,-27.63,2.75,michaelpearcy
