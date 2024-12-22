@@ -1,0 +1,40 @@
+<!-- Example for main.html -->
+<!-- filepath: /c:/Users/aiden/OneDrive/Documents/Desktop/Stock Python Scripts/AutomatingEtoroPosts/investment-flask-app/app/templates/main.html -->
+{% extends "base.html" %}
+
+{% block title %}Main Page{% endblock %}
+
+{% block content %}
+<h1>Welcome to the Investment Dashboard</h1>
+<p>This is the main landing page.</p>
+{% endblock %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Investment App{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Investment Portfolio Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('main') }}">Home</a></li>
+                <li><a href="{{ url_for('average') }}">Average Portfolio</a></li>
+                <li><a href="{{ url_for('ticker') }}">Ticker Breakdown</a></li>
+                <li><a href="{{ url_for('username', username='example') }}">User Performance</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2023 Investment App</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+{% extends "base_template.html" %}
+
+{% block title %}Average Portfolio{% endblock %}
+
+{% block content %}
+<h1 class="text-center">Average Portfolio</h1>
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th class="sort-btn" data-column="0" data-order="asc">Ticker <i class="fa fa-sort"></i></th>
+            <th class="sort-btn" data-column="1" data-order="asc">Long : Short ratio <i class="fa fa-sort"></i></th>
+            <th class="sort-btn" data-column="2" data-order="asc">Invested % <i class="fa fa-sort"></i></th>
+            <th class="sort-btn" data-column="3" data-order="asc">P/L % <i class="fa fa-sort"></i></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in data %}
+            <tr>
+                <td><a href="/ticker/{{ row.Ticker }}">{{ row.Ticker }}</a></td>
+                <td>{{ row.Direction }}</td>
+                <td class="{{ row.InvestedClass }}">{{ row.AvgInvested }}</td>
+                <td class="{{ row.NetProfitClass }}">{{ row.AvgNetProfit }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Sorting functionality
+    $(document).on('click', '.sort-btn', function() {
+        const columnIndex = parseInt($(this).data('column')); // Get the column index
+        const sortOrder = $(this).data('order'); // Get current sort order
+        const tableBody = $('table tbody');
+        const rows = tableBody.find('tr').toArray();
+
+        // Sort rows
+        rows.sort((a, b) => {
+            let aText = $(a).children('td').eq(columnIndex).text().trim().replace('%', '');
+            let bText = $(b).children('td').eq(columnIndex).text().trim().replace('%', '');
+
+            // Check for numeric values
+            if (columnIndex === 1) {
+                // Special handling for Direction column
+                const [aLong, aShort] = aText.split(' : ').map(Number);
+                const [bLong, bShort] = bText.split(' : ').map(Number);
+                const aValue = aLong - aShort;
+                const bValue = bLong - bShort;
+
+                if (sortOrder === 'asc') {
+                    return aValue > bValue ? 1 : -1;
+                } else {
+                    return aValue < bValue ? 1 : -1;
+                }
+            } else if (columnIndex === 0) {
+                // Alphabetical sorting for Ticker column
+                if (sortOrder === 'asc') {
+                    return aText.localeCompare(bText);
+                } else {
+                    return bText.localeCompare(aText);
+                }
+            } else {
+                // Convert to float after removing percentage sign
+                const aValue = parseFloat(aText) || 0;
+                const bValue = parseFloat(bText) || 0;
+
+                if (sortOrder === 'asc') {
+                    return aValue > bValue ? 1 : -1;
+                } else {
+                    return aValue < bValue ? 1 : -1;
+                }
+            }
+        });
+
+        // Append sorted rows back to table
+        tableBody.empty().append(rows);
+
+        // Toggle sort order for next click
+        $(this).data('order', sortOrder === 'asc' ? 'desc' : 'asc');
+
+        // Update sort icon
+        $('.sort-btn i').removeClass('fa-sort-up fa-sort-down').addClass('fa-sort');
+        $(this).find('i').removeClass('fa-sort').addClass(sortOrder === 'asc' ? 'fa-sort-down' : 'fa-sort-up');
+    });
+</script>
+{% endblock %}
