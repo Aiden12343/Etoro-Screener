@@ -1,0 +1,4230 @@
+{
+ "dataComponentsOrder": {
+  "groups": [
+   {
+    "dataComponents": [
+     {
+      "type": "Performance",
+      "order": 1
+     },
+     {
+      "type": "Breakdown",
+      "order": 2
+     }
+    ]
+   },
+   {
+    "dataComponents": [
+     {
+      "type": "PortfolioRisk",
+      "order": 0
+     },
+     {
+      "type": "TradingStats",
+      "order": 1
+     },
+     {
+      "type": "ExpectedDividends",
+      "order": 2
+     },
+     {
+      "type": "AdditionalStats",
+      "order": 3
+     }
+    ]
+   },
+   {
+    "dataComponents": [
+     {
+      "type": "ComparePortfolio",
+      "order": 1
+     },
+     {
+      "type": "CopiersStats",
+      "order": 2
+     }
+    ]
+   }
+  ]
+ },
+ "dataComponentsResponse": [
+  {
+   "type": "Performance",
+   "componentData": {
+    "firstActivity": "2022-09-07T09:47:12.73Z",
+    "monthly": {
+     "2022": {
+      "9": {
+       "gain": -3.89,
+       "isSimulation": false
+      },
+      "10": {
+       "gain": 6.01,
+       "isSimulation": false
+      },
+      "11": {
+       "gain": 1.98,
+       "isSimulation": false
+      },
+      "12": {
+       "gain": -1.8,
+       "isSimulation": false
+      }
+     },
+     "2023": {
+      "1": {
+       "gain": 3.32,
+       "isSimulation": false
+      },
+      "2": {
+       "gain": 0.66,
+       "isSimulation": false
+      },
+      "3": {
+       "gain": 3.57,
+       "isSimulation": false
+      },
+      "4": {
+       "gain": -0.15,
+       "isSimulation": false
+      },
+      "5": {
+       "gain": 3.15,
+       "isSimulation": false
+      },
+      "6": {
+       "gain": 2.81,
+       "isSimulation": false
+      },
+      "7": {
+       "gain": 1.64,
+       "isSimulation": false
+      },
+      "8": {
+       "gain": 0.23,
+       "isSimulation": false
+      },
+      "9": {
+       "gain": -3.96,
+       "isSimulation": false
+      },
+      "10": {
+       "gain": -1.65,
+       "isSimulation": false
+      },
+      "11": {
+       "gain": 7.8,
+       "isSimulation": false
+      },
+      "12": {
+       "gain": 2.65,
+       "isSimulation": false
+      }
+     },
+     "2024": {
+      "1": {
+       "gain": -0.88,
+       "isSimulation": false
+      },
+      "2": {
+       "gain": 2.37,
+       "isSimulation": false
+      },
+      "3": {
+       "gain": 0.02,
+       "isSimulation": false
+      },
+      "4": {
+       "gain": -0.67,
+       "isSimulation": false
+      },
+      "5": {
+       "gain": 4.64,
+       "isSimulation": false
+      },
+      "6": {
+       "gain": 4.14,
+       "isSimulation": false
+      },
+      "7": {
+       "gain": -0.1,
+       "isSimulation": false
+      },
+      "8": {
+       "gain": 0.61,
+       "isSimulation": false
+      },
+      "9": {
+       "gain": 3.26,
+       "isSimulation": false
+      },
+      "10": {
+       "gain": 0.13,
+       "isSimulation": false
+      },
+      "11": {
+       "gain": 5.61,
+       "isSimulation": false
+      },
+      "12": {
+       "gain": 1.6,
+       "isSimulation": false
+      }
+     },
+     "2025": {
+      "1": {
+       "gain": -0.93,
+       "isSimulation": false
+      }
+     }
+    },
+    "yearly": {
+     "2022": {
+      "gain": 2.04,
+      "isSimulation": false
+     },
+     "2023": {
+      "gain": 21.46,
+      "isSimulation": false
+     },
+     "2024": {
+      "gain": 22.52,
+      "isSimulation": false
+     },
+     "2025": {
+      "gain": -0.93,
+      "isSimulation": false
+     }
+    }
+   },
+   "dataProviderStatus": "Active"
+  },
+  {
+   "type": "PortfolioRisk",
+   "componentData": {
+    "averageRiskScore": 4,
+    "dailyDrawdown": -3.13,
+    "weeklyDrawdown": -4.52,
+    "peakToValleyDrawdown": -11.4,
+    "riskScoreHistory": {
+     "monthlyRiskScoreData": [
+      {
+       "date": "2024-02-01T00:00:00Z",
+       "averageRiskScore": 3,
+       "maxRiskScore": 3
+      },
+      {
+       "date": "2024-03-01T00:00:00Z",
+       "averageRiskScore": 3,
+       "maxRiskScore": 4
+      },
+      {
+       "date": "2024-04-01T00:00:00Z",
+       "averageRiskScore": 3,
+       "maxRiskScore": 4
+      },
+      {
+       "date": "2024-05-01T00:00:00Z",
+       "averageRiskScore": 4,
+       "maxRiskScore": 4
+      },
+      {
+       "date": "2024-06-01T00:00:00Z",
+       "averageRiskScore": 4,
+       "maxRiskScore": 4
+      },
+      {
+       "date": "2024-07-01T00:00:00Z",
+       "averageRiskScore": 4,
+       "maxRiskScore": 4
+      },
+      {
+       "date": "2024-08-01T00:00:00Z",
+       "averageRiskScore": 4,
+       "maxRiskScore": 5
+      },
+      {
+       "date": "2024-09-01T00:00:00Z",
+       "averageRiskScore": 5,
+       "maxRiskScore": 5
+      },
+      {
+       "date": "2024-10-01T00:00:00Z",
+       "averageRiskScore": 4,
+       "maxRiskScore": 5
+      },
+      {
+       "date": "2024-11-01T00:00:00Z",
+       "averageRiskScore": 4,
+       "maxRiskScore": 4
+      },
+      {
+       "date": "2024-12-01T00:00:00Z",
+       "averageRiskScore": 4,
+       "maxRiskScore": 4
+      },
+      {
+       "date": "2025-01-01T00:00:00Z",
+       "averageRiskScore": 4,
+       "maxRiskScore": 4
+      }
+     ]
+    },
+    "riskContributionStats": {
+     "riskContributors": [
+      {
+       "riskContributionPct": 23.71,
+       "investmentPct": 15.13,
+       "instrumentDisplayData": {
+        "instrumentID": 1137,
+        "instrumentDisplayName": "NVIDIA Corporation",
+        "images": {
+         "35x35": {
+          "width": 35.0,
+          "height": 35.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nvda/35x35.png"
+         },
+         "50x50": {
+          "width": 50.0,
+          "height": 50.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nvda/50x50.png"
+         },
+         "80x80": {
+          "width": 80.0,
+          "height": 80.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nvda/80x80.png"
+         },
+         "90x90": {
+          "width": 90.0,
+          "height": 90.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nvda/90x90.png"
+         },
+         "150x150": {
+          "width": 150.0,
+          "height": 150.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nvda/150x150.png"
+         },
+         "svg": {
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1137/1137_76B900_F7F7F7.svg",
+          "backgroundColor": "#76B900",
+          "textColor": "#F7F7F7"
+         }
+        },
+        "symbolFull": "NVDA"
+       }
+      },
+      {
+       "riskContributionPct": 11.94,
+       "investmentPct": 14.48,
+       "instrumentDisplayData": {
+        "instrumentID": 8015,
+        "instrumentDisplayName": "iShares NASDAQ 100 UCITS ETF usd",
+        "images": {
+         "35x35": {
+          "width": 35.0,
+          "height": 35.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/8015/35x35.png"
+         },
+         "50x50": {
+          "width": 50.0,
+          "height": 50.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/8015/50x50.png"
+         },
+         "150x150": {
+          "width": 150.0,
+          "height": 150.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/8015/150x150.png"
+         },
+         "svg": {
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/8015/8015_FFCE00_2C2C2C.svg",
+          "backgroundColor": "#FFCE00",
+          "textColor": "#2C2C2C"
+         }
+        },
+        "symbolFull": "CNDX.L"
+       }
+      },
+      {
+       "riskContributionPct": 11.39,
+       "investmentPct": 7.42,
+       "instrumentDisplayData": {
+        "instrumentID": 1111,
+        "instrumentDisplayName": "Tesla Motors, Inc.",
+        "images": {
+         "35x35": {
+          "width": 35.0,
+          "height": 35.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/tsla/35x35.png"
+         },
+         "50x50": {
+          "width": 50.0,
+          "height": 50.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/tsla/50x50.png"
+         },
+         "80x80": {
+          "width": 80.0,
+          "height": 80.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/tsla/80x80.png"
+         },
+         "90x90": {
+          "width": 90.0,
+          "height": 90.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/tsla/90x90.png"
+         },
+         "150x150": {
+          "width": 150.0,
+          "height": 150.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/tsla/150x150.png"
+         },
+         "svg": {
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1111/1111_E82127_F7F7F7.svg",
+          "backgroundColor": "#E82127",
+          "textColor": "#F7F7F7"
+         }
+        },
+        "symbolFull": "TSLA"
+       }
+      },
+      {
+       "riskContributionPct": 8.53,
+       "investmentPct": 3.94,
+       "instrumentDisplayData": {
+        "instrumentID": 1969,
+        "instrumentDisplayName": "SolarEdge Technologies",
+        "images": {
+         "35x35": {
+          "width": 35.0,
+          "height": 35.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/sedg/35x35.png"
+         },
+         "50x50": {
+          "width": 50.0,
+          "height": 50.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/sedg/50x50.png"
+         },
+         "80x80": {
+          "width": 80.0,
+          "height": 80.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/sedg/80x80.png"
+         },
+         "90x90": {
+          "width": 90.0,
+          "height": 90.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/sedg/90x90.png"
+         },
+         "150x150": {
+          "width": 150.0,
+          "height": 150.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/sedg/150x150.png"
+         },
+         "svg": {
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1969/1969_F7F7F7_2C2C2C.svg",
+          "backgroundColor": "#F7F7F7",
+          "textColor": "#2C2C2C"
+         }
+        },
+        "symbolFull": "SEDG"
+       }
+      },
+      {
+       "riskContributionPct": 7.9,
+       "investmentPct": 14.44,
+       "instrumentDisplayData": {
+        "instrumentID": 1001,
+        "instrumentDisplayName": "Apple",
+        "images": {
+         "35x35": {
+          "width": 35.0,
+          "height": 35.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/aapl/35x35.png"
+         },
+         "80x80": {
+          "width": 80.0,
+          "height": 80.0,
+          "uri": "/medium/Apple.png"
+         },
+         "50x50": {
+          "width": 50.0,
+          "height": 50.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/aapl/50x50.png"
+         },
+         "150x150": {
+          "width": 150.0,
+          "height": 150.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/aapl/150x150.png"
+         },
+         "90x90": {
+          "width": 90.0,
+          "height": 90.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/aapl/90x90.png"
+         },
+         "svg": {
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1001/1001_494D5A_F7F7F7.svg",
+          "backgroundColor": "#494D5A",
+          "textColor": "#F7F7F7"
+         }
+        },
+        "symbolFull": "AAPL"
+       }
+      },
+      {
+       "riskContributionPct": 6.98,
+       "investmentPct": 9.63,
+       "instrumentDisplayData": {
+        "instrumentID": 1004,
+        "instrumentDisplayName": "Microsoft",
+        "images": {
+         "35x35": {
+          "width": 35.0,
+          "height": 35.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/msft/35x35.png"
+         },
+         "80x80": {
+          "width": 80.0,
+          "height": 80.0,
+          "uri": "/medium/Microsoft.png"
+         },
+         "50x50": {
+          "width": 50.0,
+          "height": 50.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/msft/50x50.png"
+         },
+         "150x150": {
+          "width": 150.0,
+          "height": 150.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/msft/150x150.png"
+         },
+         "90x90": {
+          "width": 90.0,
+          "height": 90.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/msft/90x90.png"
+         },
+         "svg": {
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1004/1004_F7F7F7_2C2C2C.svg",
+          "backgroundColor": "#F7F7F7",
+          "textColor": "#2C2C2C"
+         }
+        },
+        "symbolFull": "MSFT"
+       }
+      },
+      {
+       "riskContributionPct": 6.12,
+       "investmentPct": 6.33,
+       "instrumentDisplayData": {
+        "instrumentID": 1003,
+        "instrumentDisplayName": "Meta Platforms Inc",
+        "images": {
+         "35x35": {
+          "width": 35.0,
+          "height": 35.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1003/35x35_b.png"
+         },
+         "80x80": {
+          "width": 80.0,
+          "height": 80.0,
+          "uri": "/medium/FaceBook.png"
+         },
+         "50x50": {
+          "width": 50.0,
+          "height": 50.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1003/50x50.png"
+         },
+         "150x150": {
+          "width": 150.0,
+          "height": 150.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1003/150x150.png"
+         },
+         "90x90": {
+          "width": 90.0,
+          "height": 90.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/fb/90x90.png"
+         },
+         "svg": {
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1003/1003_F7F7F7_2C2C2C.svg",
+          "backgroundColor": "#F7F7F7",
+          "textColor": "#2C2C2C"
+         }
+        },
+        "symbolFull": "META"
+       }
+      },
+      {
+       "riskContributionPct": 5.77,
+       "investmentPct": 1.97,
+       "instrumentDisplayData": {
+        "instrumentID": 6473,
+        "instrumentDisplayName": "MicroStrategy Incorporated",
+        "images": {
+         "35x35": {
+          "width": 35.0,
+          "height": 35.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6473/35x35.png"
+         },
+         "50x50": {
+          "width": 50.0,
+          "height": 50.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6473/50x50.png"
+         },
+         "150x150": {
+          "width": 150.0,
+          "height": 150.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6473/150x150.png"
+         },
+         "svg": {
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6473/6473_D92530_F7F7F7.svg",
+          "backgroundColor": "#D92530",
+          "textColor": "#F7F7F7"
+         }
+        },
+        "symbolFull": "MSTR"
+       }
+      },
+      {
+       "riskContributionPct": 4.48,
+       "investmentPct": 5.22,
+       "instrumentDisplayData": {
+        "instrumentID": 1005,
+        "instrumentDisplayName": "Amazon.com Inc",
+        "images": {
+         "35x35": {
+          "width": 35.0,
+          "height": 35.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/amzn/35x35.png"
+         },
+         "80x80": {
+          "width": 80.0,
+          "height": 80.0,
+          "uri": "/medium/Amazon.png"
+         },
+         "50x50": {
+          "width": 50.0,
+          "height": 50.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/amzn/50x50.png"
+         },
+         "150x150": {
+          "width": 150.0,
+          "height": 150.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/amzn/150x150.png"
+         },
+         "90x90": {
+          "width": 90.0,
+          "height": 90.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/amzn/90x90.png"
+         },
+         "svg": {
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1005/1005_494D5A_F7F7F7.svg",
+          "backgroundColor": "#494D5A",
+          "textColor": "#F7F7F7"
+         }
+        },
+        "symbolFull": "AMZN"
+       }
+      },
+      {
+       "riskContributionPct": 2.95,
+       "investmentPct": 3.54,
+       "instrumentDisplayData": {
+        "instrumentID": 1002,
+        "instrumentDisplayName": "Alphabet",
+        "images": {
+         "35x35": {
+          "width": 35.0,
+          "height": 35.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/goog/35x35.png"
+         },
+         "80x80": {
+          "width": 80.0,
+          "height": 80.0,
+          "uri": "/medium/Google.png"
+         },
+         "50x50": {
+          "width": 50.0,
+          "height": 50.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/goog/50x50.png"
+         },
+         "150x150": {
+          "width": 150.0,
+          "height": 150.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/goog/150x150.png"
+         },
+         "90x90": {
+          "width": 90.0,
+          "height": 90.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/goog/90x90.png"
+         },
+         "svg": {
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1002/1002_3183FF_F7F7F7.svg",
+          "backgroundColor": "#3183FF",
+          "textColor": "#F7F7F7"
+         }
+        },
+        "symbolFull": "GOOG"
+       }
+      },
+      {
+       "riskContributionPct": 1.91,
+       "investmentPct": 2.89,
+       "instrumentDisplayData": {
+        "instrumentID": 1127,
+        "instrumentDisplayName": "Netflix, Inc.",
+        "images": {
+         "35x35": {
+          "width": 35.0,
+          "height": 35.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nflx/35x35.png"
+         },
+         "50x50": {
+          "width": 50.0,
+          "height": 50.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nflx/50x50.png"
+         },
+         "80x80": {
+          "width": 80.0,
+          "height": 80.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nflx/80x80.png"
+         },
+         "90x90": {
+          "width": 90.0,
+          "height": 90.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nflx/90x90.png"
+         },
+         "150x150": {
+          "width": 150.0,
+          "height": 150.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nflx/150x150.png"
+         },
+         "svg": {
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1127/1127_F7F7F7_2C2C2C.svg",
+          "backgroundColor": "#F7F7F7",
+          "textColor": "#2C2C2C"
+         }
+        },
+        "symbolFull": "NFLX"
+       }
+      },
+      {
+       "riskContributionPct": 1.41,
+       "investmentPct": 2.36,
+       "instrumentDisplayData": {
+        "instrumentID": 1126,
+        "instrumentDisplayName": "Adobe Systems Inc",
+        "images": {
+         "35x35": {
+          "width": 35.0,
+          "height": 35.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/adbe/35x35.png"
+         },
+         "50x50": {
+          "width": 50.0,
+          "height": 50.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/adbe/50x50.png"
+         },
+         "80x80": {
+          "width": 80.0,
+          "height": 80.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/adbe/80x80.png"
+         },
+         "90x90": {
+          "width": 90.0,
+          "height": 90.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/adbe/90x90.png"
+         },
+         "150x150": {
+          "width": 150.0,
+          "height": 150.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/adbe/150x150.png"
+         },
+         "svg": {
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1126/1126_FA0F00_F7F7F7.svg",
+          "backgroundColor": "#FA0F00",
+          "textColor": "#F7F7F7"
+         }
+        },
+        "symbolFull": "ADBE"
+       }
+      },
+      {
+       "riskContributionPct": 1.24,
+       "investmentPct": 1.87,
+       "instrumentDisplayData": {
+        "instrumentID": 9267,
+        "instrumentDisplayName": "Oatly Group AB",
+        "images": {
+         "35x35": {
+          "width": 35.0,
+          "height": 35.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/9267/35x35.png"
+         },
+         "50x50": {
+          "width": 50.0,
+          "height": 50.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/9267/50x50.png"
+         },
+         "150x150": {
+          "width": 150.0,
+          "height": 150.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/9267/150x150.png"
+         }
+        },
+        "symbolFull": "OTLY"
+       }
+      },
+      {
+       "riskContributionPct": 1.1,
+       "investmentPct": 1.68,
+       "instrumentDisplayData": {
+        "instrumentID": 6538,
+        "instrumentDisplayName": "Sonos Inc",
+        "images": {
+         "35x35": {
+          "width": 35.0,
+          "height": 35.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6538/35x35.png"
+         },
+         "50x50": {
+          "width": 50.0,
+          "height": 50.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6538/50x50.png"
+         },
+         "150x150": {
+          "width": 150.0,
+          "height": 150.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6538/150x150.png"
+         },
+         "svg": {
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6538/6538_D8D8D8_2C2C2C.svg",
+          "backgroundColor": "#D8D8D8",
+          "textColor": "#2C2C2C"
+         }
+        },
+        "symbolFull": "SONO"
+       }
+      },
+      {
+       "riskContributionPct": 1.1,
+       "investmentPct": 2.33,
+       "instrumentDisplayData": {
+        "instrumentID": 4238,
+        "instrumentDisplayName": "Vanguard S&P 500 ETF",
+        "images": {
+         "35x35": {
+          "width": 35.0,
+          "height": 35.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4238/35x35.png"
+         },
+         "50x50": {
+          "width": 50.0,
+          "height": 50.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4238/50x50.png"
+         },
+         "150x150": {
+          "width": 150.0,
+          "height": 150.0,
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4238/150x150.png"
+         },
+         "svg": {
+          "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4238/4238_931A1F_F7F7F7.svg",
+          "backgroundColor": "#931A1F",
+          "textColor": "#F7F7F7"
+         }
+        },
+        "symbolFull": "VOO"
+       }
+      }
+     ],
+     "emptyReason": "None"
+    },
+    "leastCorrelatedAssets": [
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1578,
+       "instrumentDisplayName": "Southern Co",
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/so/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/so/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/so/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/so/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/so/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1578/1578_F7F7F7_2C2C2C.svg",
+         "backgroundColor": "#F7F7F7",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "SO"
+      },
+      "assetClassId": 5,
+      "umbrellaSector": "Utilities"
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1032,
+       "instrumentDisplayName": "UnitedHealth",
+       "images": {
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/unh/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/unh/150x150.png"
+        },
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/unh/35x35.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/unh/90x90.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1032/1032_060E9F_F7F7F7.svg",
+         "backgroundColor": "#060E9F",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "UNH"
+      },
+      "assetClassId": 5,
+      "umbrellaSector": "Healthcare"
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 12325,
+       "instrumentDisplayName": "Medtronic PLC",
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/12325/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/12325/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/12325/150x150.png"
+        }
+       },
+       "symbolFull": "2M6.DE"
+      },
+      "assetClassId": 5,
+      "umbrellaSector": "Healthcare"
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1541,
+       "instrumentDisplayName": "Duke Energy Corp",
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/duk/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/duk/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/duk/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/duk/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/duk/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1541/1541_F7F7F7_2C2C2C.svg",
+         "backgroundColor": "#F7F7F7",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "DUK"
+      },
+      "assetClassId": 5,
+      "umbrellaSector": "Utilities"
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1482,
+       "instrumentDisplayName": "Philip Morris International Inc",
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/pm/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/pm/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/pm/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/pm/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/pm/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1482/1482_F7F7F7_2C2C2C.svg",
+         "backgroundColor": "#F7F7F7",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "PM"
+      },
+      "assetClassId": 5,
+      "umbrellaSector": "Consumer Staples"
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1909,
+       "instrumentDisplayName": "Cintas Corp",
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/ctas/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/ctas/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/ctas/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/ctas/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/ctas/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1909/1909_022169_F7F7F7.svg",
+         "backgroundColor": "#022169",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "CTAS"
+      },
+      "assetClassId": 5,
+      "umbrellaSector": "Consumer Discretionary"
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1603,
+       "instrumentDisplayName": "Bristol-Myers Squibb Co",
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/bmy/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/bmy/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/bmy/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/bmy/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/bmy/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1603/1603_2E4B7D_F7F7F7.svg",
+         "backgroundColor": "#2E4B7D",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "BMY"
+      },
+      "assetClassId": 5,
+      "umbrellaSector": "Healthcare"
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 4205,
+       "instrumentDisplayName": "Aon plc",
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4205/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4205/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4205/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4205/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4205/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4205/4205_E11C23_F7F7F7.svg",
+         "backgroundColor": "#E11C23",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "AON"
+      },
+      "assetClassId": 5,
+      "umbrellaSector": "Financials"
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1022,
+       "instrumentDisplayName": "Johnson & Johnson",
+       "images": {
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/jnj/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/jnj/150x150.png"
+        },
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/jnj/35x35.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/jnj/90x90.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1022/1022_D51900_F7F7F7.svg",
+         "backgroundColor": "#D51900",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "JNJ"
+      },
+      "assetClassId": 5,
+      "umbrellaSector": "Healthcare"
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 2014,
+       "instrumentDisplayName": "British American Tobacco",
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/bats.l/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/bats.l/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/bats.l/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/bats.l/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/bats.l/150x150.png"
+        }
+       },
+       "symbolFull": "BATS.L"
+      },
+      "assetClassId": 5,
+      "umbrellaSector": "Consumer Staples"
+     }
+    ]
+   },
+   "dataProviderStatus": "Active"
+  },
+  {
+   "type": "ExpectedDividends",
+   "componentData": {
+    "trendingHighDividendsAssets": [
+     {
+      "id": 4003,
+      "yield": 0.0348118006103764,
+      "displayData": {
+       "instrumentDisplayName": "Adecoagro S.A.",
+       "instrumentTypeID": 5,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/agro/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/agro/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/agro/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/agro/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/agro/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4003/4003_144B2C_F7F7F7.svg",
+         "backgroundColor": "#144B2C",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "AGRO"
+      }
+     },
+     {
+      "id": 7615,
+      "yield": 0.03457371128379118,
+      "displayData": {
+       "instrumentDisplayName": "Banco Santander SA",
+       "instrumentTypeID": 5,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/7615/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/7615/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/7615/150x150.png"
+        }
+       },
+       "symbolFull": "SAN.MC"
+      }
+     },
+     {
+      "id": 7052,
+      "yield": 0.03355704697986577,
+      "displayData": {
+       "instrumentDisplayName": "Whitehaven Coal Limited",
+       "instrumentTypeID": 5,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/7052/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/7052/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/7052/150x150.png"
+        }
+       },
+       "symbolFull": "WHC.ASX"
+      }
+     },
+     {
+      "id": 2686,
+      "yield": 0.050523952095808386,
+      "displayData": {
+       "instrumentDisplayName": "Renewables Infrastructure Group Ltd",
+       "instrumentTypeID": 5,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/2686/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/2686/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/2686/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/2686/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/2686/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/2686/2686_F7F7F7_2C2C2C.svg",
+         "backgroundColor": "#F7F7F7",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "TRIG.L"
+      }
+     },
+     {
+      "id": 2219,
+      "yield": 0.038831935383659526,
+      "displayData": {
+       "instrumentDisplayName": "Norsk Hydro",
+       "instrumentTypeID": 5,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/2219/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/2219/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/2219/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/2219/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/2219/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/2219/2219_3C5199_F7F7F7.svg",
+         "backgroundColor": "#3C5199",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "NHY.OL"
+      }
+     }
+    ]
+   },
+   "dataProviderStatus": "Active"
+  },
+  {
+   "type": "TradingStats",
+   "componentData": {
+    "totalTrades": 369,
+    "profitableTradesPercent": 87.53,
+    "averageProfitPercent": 30.23,
+    "averageLossPercent": -18.97,
+    "tradedAssetsBreakdown": [
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1001,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/aapl/35x35.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "/medium/Apple.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/aapl/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/aapl/150x150.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/aapl/90x90.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1001/1001_494D5A_F7F7F7.svg",
+         "backgroundColor": "#494D5A",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "AAPL"
+      },
+      "totalTrades": 56,
+      "percentOfTrades": 15.18,
+      "profitableTradesPercent": 94.64,
+      "averageProfitPercent": 22.89,
+      "averageLossPercent": -3.4
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1137,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nvda/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nvda/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nvda/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nvda/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nvda/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1137/1137_76B900_F7F7F7.svg",
+         "backgroundColor": "#76B900",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "NVDA"
+      },
+      "totalTrades": 53,
+      "percentOfTrades": 14.36,
+      "profitableTradesPercent": 84.91,
+      "averageProfitPercent": 33.51,
+      "averageLossPercent": -4.04
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1111,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/tsla/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/tsla/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/tsla/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/tsla/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/tsla/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1111/1111_E82127_F7F7F7.svg",
+         "backgroundColor": "#E82127",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "TSLA"
+      },
+      "totalTrades": 44,
+      "percentOfTrades": 11.92,
+      "profitableTradesPercent": 95.45,
+      "averageProfitPercent": 63.31,
+      "averageLossPercent": -11.36
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 8015,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/8015/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/8015/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/8015/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/8015/8015_FFCE00_2C2C2C.svg",
+         "backgroundColor": "#FFCE00",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "CNDX.L"
+      },
+      "totalTrades": 41,
+      "percentOfTrades": 11.11,
+      "profitableTradesPercent": 95.12,
+      "averageProfitPercent": 14.91,
+      "averageLossPercent": -0.69
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1002,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/goog/35x35.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "/medium/Google.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/goog/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/goog/150x150.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/goog/90x90.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1002/1002_3183FF_F7F7F7.svg",
+         "backgroundColor": "#3183FF",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "GOOG"
+      },
+      "totalTrades": 19,
+      "percentOfTrades": 5.15,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 29.43,
+      "averageLossPercent": 0.0
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1969,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/sedg/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/sedg/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/sedg/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/sedg/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/sedg/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1969/1969_F7F7F7_2C2C2C.svg",
+         "backgroundColor": "#F7F7F7",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "SEDG"
+      },
+      "totalTrades": 16,
+      "percentOfTrades": 4.34,
+      "profitableTradesPercent": 62.5,
+      "averageProfitPercent": 2.3,
+      "averageLossPercent": -78.31
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1003,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1003/35x35_b.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "/medium/FaceBook.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1003/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1003/150x150.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/fb/90x90.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1003/1003_F7F7F7_2C2C2C.svg",
+         "backgroundColor": "#F7F7F7",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "META"
+      },
+      "totalTrades": 16,
+      "percentOfTrades": 4.34,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 44.55,
+      "averageLossPercent": 0.0
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1004,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/msft/35x35.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "/medium/Microsoft.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/msft/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/msft/150x150.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/msft/90x90.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1004/1004_F7F7F7_2C2C2C.svg",
+         "backgroundColor": "#F7F7F7",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "MSFT"
+      },
+      "totalTrades": 15,
+      "percentOfTrades": 4.07,
+      "profitableTradesPercent": 73.33,
+      "averageProfitPercent": 13.21,
+      "averageLossPercent": -1.32
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1005,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/amzn/35x35.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "/medium/Amazon.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/amzn/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/amzn/150x150.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/amzn/90x90.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1005/1005_494D5A_F7F7F7.svg",
+         "backgroundColor": "#494D5A",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "AMZN"
+      },
+      "totalTrades": 15,
+      "percentOfTrades": 4.07,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 27.71,
+      "averageLossPercent": 0.0
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 9267,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/9267/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/9267/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/9267/150x150.png"
+        }
+       },
+       "symbolFull": "OTLY"
+      },
+      "totalTrades": 13,
+      "percentOfTrades": 3.52,
+      "profitableTradesPercent": 92.31,
+      "averageProfitPercent": 4.05,
+      "averageLossPercent": -2.16
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1127,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nflx/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nflx/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nflx/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nflx/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nflx/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1127/1127_F7F7F7_2C2C2C.svg",
+         "backgroundColor": "#F7F7F7",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "NFLX"
+      },
+      "totalTrades": 10,
+      "percentOfTrades": 2.71,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 56.94,
+      "averageLossPercent": 0.0
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1979,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1979/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1979/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1979/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1979/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1979/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1979/1979_FFEF29_2C2C2C.svg",
+         "backgroundColor": "#FFEF29",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "SNAP"
+      },
+      "totalTrades": 9,
+      "percentOfTrades": 2.44,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 26.6,
+      "averageLossPercent": 0.0
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1156,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1156/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1156/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1156/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1156/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1156/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1156/1156_1ED760_F7F7F7.svg",
+         "backgroundColor": "#1ED760",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "SPOT"
+      },
+      "totalTrades": 8,
+      "percentOfTrades": 2.17,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 107.96,
+      "averageLossPercent": 0.0
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 3005,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/iwm/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/iwm/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/iwm/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/iwm/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/iwm/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/3005/3005_FFCE00_2C2C2C.svg",
+         "backgroundColor": "#FFCE00",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "IWM"
+      },
+      "totalTrades": 7,
+      "percentOfTrades": 1.9,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 4.83,
+      "averageLossPercent": 0.0
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 6538,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6538/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6538/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6538/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6538/6538_D8D8D8_2C2C2C.svg",
+         "backgroundColor": "#D8D8D8",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "SONO"
+      },
+      "totalTrades": 6,
+      "percentOfTrades": 1.63,
+      "profitableTradesPercent": 33.33,
+      "averageProfitPercent": 9.32,
+      "averageLossPercent": -17.22
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1388,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1388/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1388/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/TTWO/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1388/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1388/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1388/1388_F7F7F7_2C2C2C.svg",
+         "backgroundColor": "#F7F7F7",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "TTWO"
+      },
+      "totalTrades": 5,
+      "percentOfTrades": 1.36,
+      "profitableTradesPercent": 80.0,
+      "averageProfitPercent": 11.94,
+      "averageLossPercent": -0.69
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1126,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/adbe/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/adbe/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/adbe/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/adbe/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/adbe/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1126/1126_FA0F00_F7F7F7.svg",
+         "backgroundColor": "#FA0F00",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "ADBE"
+      },
+      "totalTrades": 5,
+      "percentOfTrades": 1.36,
+      "profitableTradesPercent": 20.0,
+      "averageProfitPercent": 16.7,
+      "averageLossPercent": -19.18
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 28,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nsdq100/35x35.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "/medium/NSDQ.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nsdq100/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nsdq100/150x150.png"
+        },
+        "70x70": {
+         "width": 70.0,
+         "height": 70.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/nsdq100/70x70.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/28/28_F7F7F7_2C2C2C.svg",
+         "backgroundColor": "#F7F7F7",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "NSDQ100"
+      },
+      "totalTrades": 4,
+      "percentOfTrades": 1.08,
+      "profitableTradesPercent": 75.0,
+      "averageProfitPercent": 0.25,
+      "averageLossPercent": -0.2
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 3006,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/qqq/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/qqq/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/qqq/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/qqq/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/qqq/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/3006/3006_282F71_F7F7F7.svg",
+         "backgroundColor": "#282F71",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "QQQ"
+      },
+      "totalTrades": 4,
+      "percentOfTrades": 1.08,
+      "profitableTradesPercent": 75.0,
+      "averageProfitPercent": 2.18,
+      "averageLossPercent": -4.91
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 4238,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4238/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4238/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4238/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4238/4238_931A1F_F7F7F7.svg",
+         "backgroundColor": "#931A1F",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "VOO"
+      },
+      "totalTrades": 3,
+      "percentOfTrades": 0.81,
+      "profitableTradesPercent": 33.33,
+      "averageProfitPercent": 6.38,
+      "averageLossPercent": -1.23
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 4489,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4489/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4489/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4489/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4489/4489_2C2C2C_F7F7F7.svg",
+         "backgroundColor": "#2C2C2C",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "NIO"
+      },
+      "totalTrades": 3,
+      "percentOfTrades": 0.81,
+      "profitableTradesPercent": 33.33,
+      "averageProfitPercent": 2.97,
+      "averageLossPercent": -40.28
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 6473,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6473/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6473/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6473/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6473/6473_D92530_F7F7F7.svg",
+         "backgroundColor": "#D92530",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "MSTR"
+      },
+      "totalTrades": 2,
+      "percentOfTrades": 0.54,
+      "profitableTradesPercent": 0.0,
+      "averageProfitPercent": 0.0,
+      "averageLossPercent": -3.52
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1142,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/sbux/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/sbux/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/sbux/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/sbux/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/sbux/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1142/1142_007042_F7F7F7.svg",
+         "backgroundColor": "#007042",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "SBUX"
+      },
+      "totalTrades": 2,
+      "percentOfTrades": 0.54,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 5.52,
+      "averageLossPercent": 0.0
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 6678,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6678/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6678/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6678/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6678/6678_212A5F_F7F7F7.svg",
+         "backgroundColor": "#212A5F",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "ZIM"
+      },
+      "totalTrades": 2,
+      "percentOfTrades": 0.54,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 22.6,
+      "averageLossPercent": 0.0
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1187,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1187/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1187/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1187/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1187/1187_6AC746_F7F7F7.svg",
+         "backgroundColor": "#6AC746",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "BYND"
+      },
+      "totalTrades": 2,
+      "percentOfTrades": 0.54,
+      "profitableTradesPercent": 50.0,
+      "averageProfitPercent": 0.5,
+      "averageLossPercent": -72.24
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1118,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/brk.b/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/brk.b/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/brk.b/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/brk.b/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/brk.b/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1118/1118_2E3192_F7F7F7.svg",
+         "backgroundColor": "#2E3192",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "BRK.B"
+      },
+      "totalTrades": 1,
+      "percentOfTrades": 0.27,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 0.13,
+      "averageLossPercent": 0.0
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 3226,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/3226/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/3226/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/3226/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/3226/3226_F7F7F7_2C2C2C.svg",
+         "backgroundColor": "#F7F7F7",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "SOXL"
+      },
+      "totalTrades": 1,
+      "percentOfTrades": 0.27,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 0.13,
+      "averageLossPercent": 0.0
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 4463,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4463/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4463/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4463/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4463/4463_FFCE00_F7F7F7.svg",
+         "backgroundColor": "#FFCE00",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "SOXX"
+      },
+      "totalTrades": 1,
+      "percentOfTrades": 0.27,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 0.5,
+      "averageLossPercent": 0.0
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 4407,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4407/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4407/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4407/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4407/4407_4EBA3A_F7F7F7.svg",
+         "backgroundColor": "#4EBA3A",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "BIL"
+      },
+      "totalTrades": 1,
+      "percentOfTrades": 0.27,
+      "profitableTradesPercent": 0.0,
+      "averageProfitPercent": 0.0,
+      "averageLossPercent": -0.3
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 4431,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4431/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4431/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4431/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4431/4431_4EBA3A_F7F7F7.svg",
+         "backgroundColor": "#4EBA3A",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "XBI"
+      },
+      "totalTrades": 1,
+      "percentOfTrades": 0.27,
+      "profitableTradesPercent": 0.0,
+      "averageProfitPercent": 0.0,
+      "averageLossPercent": -14.92
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 4465,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4465/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4465/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4465/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/4465/4465_F7F7F7_2C2C2C.svg",
+         "backgroundColor": "#F7F7F7",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "TQQQ"
+      },
+      "totalTrades": 1,
+      "percentOfTrades": 0.27,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 0.64,
+      "averageLossPercent": 0.0
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 6515,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6515/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6515/50x50.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6515/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/6515/6515_C82021_F7F7F7.svg",
+         "backgroundColor": "#C82021",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "RDFN"
+      },
+      "totalTrades": 1,
+      "percentOfTrades": 0.27,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 2.72,
+      "averageLossPercent": 0.0
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1484,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/pypl/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/pypl/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/pypl/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/pypl/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/pypl/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1484/1484_F7F7F7_2C2C2C.svg",
+         "backgroundColor": "#F7F7F7",
+         "textColor": "#2C2C2C"
+        }
+       },
+       "symbolFull": "PYPL"
+      },
+      "totalTrades": 1,
+      "percentOfTrades": 0.27,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 3.13,
+      "averageLossPercent": 0.0
+     },
+     {
+      "instrumentDisplayData": {
+       "instrumentID": 1124,
+       "images": {
+        "35x35": {
+         "width": 35.0,
+         "height": 35.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/ea/35x35.png"
+        },
+        "50x50": {
+         "width": 50.0,
+         "height": 50.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/ea/50x50.png"
+        },
+        "80x80": {
+         "width": 80.0,
+         "height": 80.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/ea/80x80.png"
+        },
+        "90x90": {
+         "width": 90.0,
+         "height": 90.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/ea/90x90.png"
+        },
+        "150x150": {
+         "width": 150.0,
+         "height": 150.0,
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/ea/150x150.png"
+        },
+        "svg": {
+         "uri": "https://etoro-cdn.etorostatic.com/market-avatars/1124/1124_161616_F7F7F7.svg",
+         "backgroundColor": "#161616",
+         "textColor": "#F7F7F7"
+        }
+       },
+       "symbolFull": "EA"
+      },
+      "totalTrades": 1,
+      "percentOfTrades": 0.27,
+      "profitableTradesPercent": 100.0,
+      "averageProfitPercent": 27.25,
+      "averageLossPercent": 0.0
+     }
+    ]
+   },
+   "dataProviderStatus": "Active"
+  },
+  {
+   "type": "AdditionalStats",
+   "componentData": {
+    "tradesPerWeek": 6.833333333333333,
+    "averageHoldingTimeInMinutes": 291966.13,
+    "activeSince": "2022-09-07T09:47:12.73Z",
+    "profitableWeeksPercentage": 57.41
+   },
+   "dataProviderStatus": "Active"
+  },
+  {
+   "type": "ComparePortfolio",
+   "dataProviderStatus": "Active"
+  },
+  {
+   "type": "CopiersStats",
+   "componentData": {
+    "copiersCount": 200,
+    "copyValue": "$100K-$300K",
+    "copiersChangeLast7Days": 1,
+    "copiersChangeInPctLast7Days": 1.01,
+    "copiersChartData": {
+     "dailyCopiers": [
+      {
+       "timestamp": "2024-01-12T00:00:00Z",
+       "copiers": 108
+      },
+      {
+       "timestamp": "2024-01-13T00:00:00Z",
+       "copiers": 108
+      },
+      {
+       "timestamp": "2024-01-14T00:00:00Z",
+       "copiers": 108
+      },
+      {
+       "timestamp": "2024-01-15T00:00:00Z",
+       "copiers": 108
+      },
+      {
+       "timestamp": "2024-01-16T00:00:00Z",
+       "copiers": 108
+      },
+      {
+       "timestamp": "2024-01-17T00:00:00Z",
+       "copiers": 108
+      },
+      {
+       "timestamp": "2024-01-18T00:00:00Z",
+       "copiers": 108
+      },
+      {
+       "timestamp": "2024-01-19T00:00:00Z",
+       "copiers": 110
+      },
+      {
+       "timestamp": "2024-01-20T00:00:00Z",
+       "copiers": 111
+      },
+      {
+       "timestamp": "2024-01-21T00:00:00Z",
+       "copiers": 111
+      },
+      {
+       "timestamp": "2024-01-22T00:00:00Z",
+       "copiers": 111
+      },
+      {
+       "timestamp": "2024-01-23T00:00:00Z",
+       "copiers": 110
+      },
+      {
+       "timestamp": "2024-01-24T00:00:00Z",
+       "copiers": 110
+      },
+      {
+       "timestamp": "2024-01-25T00:00:00Z",
+       "copiers": 111
+      },
+      {
+       "timestamp": "2024-01-26T00:00:00Z",
+       "copiers": 112
+      },
+      {
+       "timestamp": "2024-01-27T00:00:00Z",
+       "copiers": 113
+      },
+      {
+       "timestamp": "2024-01-28T00:00:00Z",
+       "copiers": 113
+      },
+      {
+       "timestamp": "2024-01-29T00:00:00Z",
+       "copiers": 113
+      },
+      {
+       "timestamp": "2024-01-30T00:00:00Z",
+       "copiers": 114
+      },
+      {
+       "timestamp": "2024-01-31T00:00:00Z",
+       "copiers": 113
+      },
+      {
+       "timestamp": "2024-02-01T00:00:00Z",
+       "copiers": 113
+      },
+      {
+       "timestamp": "2024-02-02T00:00:00Z",
+       "copiers": 113
+      },
+      {
+       "timestamp": "2024-02-03T00:00:00Z",
+       "copiers": 113
+      },
+      {
+       "timestamp": "2024-02-04T00:00:00Z",
+       "copiers": 113
+      },
+      {
+       "timestamp": "2024-02-05T00:00:00Z",
+       "copiers": 113
+      },
+      {
+       "timestamp": "2024-02-06T00:00:00Z",
+       "copiers": 112
+      },
+      {
+       "timestamp": "2024-02-07T00:00:00Z",
+       "copiers": 110
+      },
+      {
+       "timestamp": "2024-02-08T00:00:00Z",
+       "copiers": 110
+      },
+      {
+       "timestamp": "2024-02-09T00:00:00Z",
+       "copiers": 110
+      },
+      {
+       "timestamp": "2024-02-10T00:00:00Z",
+       "copiers": 109
+      },
+      {
+       "timestamp": "2024-02-11T00:00:00Z",
+       "copiers": 109
+      },
+      {
+       "timestamp": "2024-02-12T00:00:00Z",
+       "copiers": 109
+      },
+      {
+       "timestamp": "2024-02-13T00:00:00Z",
+       "copiers": 109
+      },
+      {
+       "timestamp": "2024-02-14T00:00:00Z",
+       "copiers": 108
+      },
+      {
+       "timestamp": "2024-02-15T00:00:00Z",
+       "copiers": 109
+      },
+      {
+       "timestamp": "2024-02-16T00:00:00Z",
+       "copiers": 107
+      },
+      {
+       "timestamp": "2024-02-17T00:00:00Z",
+       "copiers": 106
+      },
+      {
+       "timestamp": "2024-02-18T00:00:00Z",
+       "copiers": 106
+      },
+      {
+       "timestamp": "2024-02-19T00:00:00Z",
+       "copiers": 106
+      },
+      {
+       "timestamp": "2024-02-20T00:00:00Z",
+       "copiers": 106
+      },
+      {
+       "timestamp": "2024-02-21T00:00:00Z",
+       "copiers": 104
+      },
+      {
+       "timestamp": "2024-02-22T00:00:00Z",
+       "copiers": 102
+      },
+      {
+       "timestamp": "2024-02-23T00:00:00Z",
+       "copiers": 102
+      },
+      {
+       "timestamp": "2024-02-24T00:00:00Z",
+       "copiers": 101
+      },
+      {
+       "timestamp": "2024-02-25T00:00:00Z",
+       "copiers": 101
+      },
+      {
+       "timestamp": "2024-02-26T00:00:00Z",
+       "copiers": 101
+      },
+      {
+       "timestamp": "2024-02-27T00:00:00Z",
+       "copiers": 100
+      },
+      {
+       "timestamp": "2024-02-28T00:00:00Z",
+       "copiers": 100
+      },
+      {
+       "timestamp": "2024-02-29T00:00:00Z",
+       "copiers": 100
+      },
+      {
+       "timestamp": "2024-03-01T00:00:00Z",
+       "copiers": 100
+      },
+      {
+       "timestamp": "2024-03-02T00:00:00Z",
+       "copiers": 100
+      },
+      {
+       "timestamp": "2024-03-03T00:00:00Z",
+       "copiers": 100
+      },
+      {
+       "timestamp": "2024-03-04T00:00:00Z",
+       "copiers": 100
+      },
+      {
+       "timestamp": "2024-03-05T00:00:00Z",
+       "copiers": 100
+      },
+      {
+       "timestamp": "2024-03-06T00:00:00Z",
+       "copiers": 98
+      },
+      {
+       "timestamp": "2024-03-07T00:00:00Z",
+       "copiers": 98
+      },
+      {
+       "timestamp": "2024-03-08T00:00:00Z",
+       "copiers": 96
+      },
+      {
+       "timestamp": "2024-03-09T00:00:00Z",
+       "copiers": 94
+      },
+      {
+       "timestamp": "2024-03-10T00:00:00Z",
+       "copiers": 94
+      },
+      {
+       "timestamp": "2024-03-11T00:00:00Z",
+       "copiers": 94
+      },
+      {
+       "timestamp": "2024-03-12T00:00:00Z",
+       "copiers": 93
+      },
+      {
+       "timestamp": "2024-03-13T00:00:00Z",
+       "copiers": 92
+      },
+      {
+       "timestamp": "2024-03-14T00:00:00Z",
+       "copiers": 92
+      },
+      {
+       "timestamp": "2024-03-15T00:00:00Z",
+       "copiers": 92
+      },
+      {
+       "timestamp": "2024-03-16T00:00:00Z",
+       "copiers": 92
+      },
+      {
+       "timestamp": "2024-03-17T00:00:00Z",
+       "copiers": 92
+      },
+      {
+       "timestamp": "2024-03-18T00:00:00Z",
+       "copiers": 92
+      },
+      {
+       "timestamp": "2024-03-19T00:00:00Z",
+       "copiers": 91
+      },
+      {
+       "timestamp": "2024-03-20T00:00:00Z",
+       "copiers": 91
+      },
+      {
+       "timestamp": "2024-03-21T00:00:00Z",
+       "copiers": 91
+      },
+      {
+       "timestamp": "2024-03-22T00:00:00Z",
+       "copiers": 91
+      },
+      {
+       "timestamp": "2024-03-23T00:00:00Z",
+       "copiers": 91
+      },
+      {
+       "timestamp": "2024-03-24T00:00:00Z",
+       "copiers": 91
+      },
+      {
+       "timestamp": "2024-03-25T00:00:00Z",
+       "copiers": 91
+      },
+      {
+       "timestamp": "2024-03-26T00:00:00Z",
+       "copiers": 90
+      },
+      {
+       "timestamp": "2024-03-27T00:00:00Z",
+       "copiers": 89
+      },
+      {
+       "timestamp": "2024-03-28T00:00:00Z",
+       "copiers": 88
+      },
+      {
+       "timestamp": "2024-03-29T00:00:00Z",
+       "copiers": 87
+      },
+      {
+       "timestamp": "2024-03-30T00:00:00Z",
+       "copiers": 87
+      },
+      {
+       "timestamp": "2024-03-31T00:00:00Z",
+       "copiers": 87
+      },
+      {
+       "timestamp": "2024-04-01T00:00:00Z",
+       "copiers": 87
+      },
+      {
+       "timestamp": "2024-04-02T00:00:00Z",
+       "copiers": 87
+      },
+      {
+       "timestamp": "2024-04-03T00:00:00Z",
+       "copiers": 87
+      },
+      {
+       "timestamp": "2024-04-04T00:00:00Z",
+       "copiers": 87
+      },
+      {
+       "timestamp": "2024-04-05T00:00:00Z",
+       "copiers": 86
+      },
+      {
+       "timestamp": "2024-04-06T00:00:00Z",
+       "copiers": 85
+      },
+      {
+       "timestamp": "2024-04-07T00:00:00Z",
+       "copiers": 85
+      },
+      {
+       "timestamp": "2024-04-08T00:00:00Z",
+       "copiers": 85
+      },
+      {
+       "timestamp": "2024-04-09T00:00:00Z",
+       "copiers": 85
+      },
+      {
+       "timestamp": "2024-04-10T00:00:00Z",
+       "copiers": 84
+      },
+      {
+       "timestamp": "2024-04-11T00:00:00Z",
+       "copiers": 84
+      },
+      {
+       "timestamp": "2024-04-12T00:00:00Z",
+       "copiers": 84
+      },
+      {
+       "timestamp": "2024-04-13T00:00:00Z",
+       "copiers": 83
+      },
+      {
+       "timestamp": "2024-04-14T00:00:00Z",
+       "copiers": 83
+      },
+      {
+       "timestamp": "2024-04-15T00:00:00Z",
+       "copiers": 83
+      },
+      {
+       "timestamp": "2024-04-16T00:00:00Z",
+       "copiers": 82
+      },
+      {
+       "timestamp": "2024-04-17T00:00:00Z",
+       "copiers": 82
+      },
+      {
+       "timestamp": "2024-04-18T00:00:00Z",
+       "copiers": 82
+      },
+      {
+       "timestamp": "2024-04-19T00:00:00Z",
+       "copiers": 82
+      },
+      {
+       "timestamp": "2024-04-20T00:00:00Z",
+       "copiers": 81
+      },
+      {
+       "timestamp": "2024-04-21T00:00:00Z",
+       "copiers": 81
+      },
+      {
+       "timestamp": "2024-04-22T00:00:00Z",
+       "copiers": 81
+      },
+      {
+       "timestamp": "2024-04-23T00:00:00Z",
+       "copiers": 80
+      },
+      {
+       "timestamp": "2024-04-24T00:00:00Z",
+       "copiers": 79
+      },
+      {
+       "timestamp": "2024-04-25T00:00:00Z",
+       "copiers": 79
+      },
+      {
+       "timestamp": "2024-04-26T00:00:00Z",
+       "copiers": 79
+      },
+      {
+       "timestamp": "2024-04-27T00:00:00Z",
+       "copiers": 79
+      },
+      {
+       "timestamp": "2024-04-28T00:00:00Z",
+       "copiers": 79
+      },
+      {
+       "timestamp": "2024-04-29T00:00:00Z",
+       "copiers": 79
+      },
+      {
+       "timestamp": "2024-04-30T00:00:00Z",
+       "copiers": 79
+      },
+      {
+       "timestamp": "2024-05-01T00:00:00Z",
+       "copiers": 80
+      },
+      {
+       "timestamp": "2024-05-02T00:00:00Z",
+       "copiers": 81
+      },
+      {
+       "timestamp": "2024-05-03T00:00:00Z",
+       "copiers": 82
+      },
+      {
+       "timestamp": "2024-05-04T00:00:00Z",
+       "copiers": 84
+      },
+      {
+       "timestamp": "2024-05-05T00:00:00Z",
+       "copiers": 86
+      },
+      {
+       "timestamp": "2024-05-06T00:00:00Z",
+       "copiers": 86
+      },
+      {
+       "timestamp": "2024-05-07T00:00:00Z",
+       "copiers": 86
+      },
+      {
+       "timestamp": "2024-05-08T00:00:00Z",
+       "copiers": 85
+      },
+      {
+       "timestamp": "2024-05-09T00:00:00Z",
+       "copiers": 85
+      },
+      {
+       "timestamp": "2024-05-10T00:00:00Z",
+       "copiers": 86
+      },
+      {
+       "timestamp": "2024-05-11T00:00:00Z",
+       "copiers": 86
+      },
+      {
+       "timestamp": "2024-05-12T00:00:00Z",
+       "copiers": 87
+      },
+      {
+       "timestamp": "2024-05-13T00:00:00Z",
+       "copiers": 87
+      },
+      {
+       "timestamp": "2024-05-14T00:00:00Z",
+       "copiers": 87
+      },
+      {
+       "timestamp": "2024-05-15T00:00:00Z",
+       "copiers": 86
+      },
+      {
+       "timestamp": "2024-05-16T00:00:00Z",
+       "copiers": 86
+      },
+      {
+       "timestamp": "2024-05-17T00:00:00Z",
+       "copiers": 87
+      },
+      {
+       "timestamp": "2024-05-18T00:00:00Z",
+       "copiers": 88
+      },
+      {
+       "timestamp": "2024-05-19T00:00:00Z",
+       "copiers": 88
+      },
+      {
+       "timestamp": "2024-05-20T00:00:00Z",
+       "copiers": 88
+      },
+      {
+       "timestamp": "2024-05-21T00:00:00Z",
+       "copiers": 88
+      },
+      {
+       "timestamp": "2024-05-22T00:00:00Z",
+       "copiers": 90
+      },
+      {
+       "timestamp": "2024-05-23T00:00:00Z",
+       "copiers": 92
+      },
+      {
+       "timestamp": "2024-05-24T00:00:00Z",
+       "copiers": 94
+      },
+      {
+       "timestamp": "2024-05-25T00:00:00Z",
+       "copiers": 95
+      },
+      {
+       "timestamp": "2024-05-26T00:00:00Z",
+       "copiers": 95
+      },
+      {
+       "timestamp": "2024-05-27T00:00:00Z",
+       "copiers": 96
+      },
+      {
+       "timestamp": "2024-05-28T00:00:00Z",
+       "copiers": 99
+      },
+      {
+       "timestamp": "2024-05-29T00:00:00Z",
+       "copiers": 102
+      },
+      {
+       "timestamp": "2024-05-30T00:00:00Z",
+       "copiers": 103
+      },
+      {
+       "timestamp": "2024-05-31T00:00:00Z",
+       "copiers": 105
+      },
+      {
+       "timestamp": "2024-06-01T00:00:00Z",
+       "copiers": 107
+      },
+      {
+       "timestamp": "2024-06-02T00:00:00Z",
+       "copiers": 109
+      },
+      {
+       "timestamp": "2024-06-03T00:00:00Z",
+       "copiers": 110
+      },
+      {
+       "timestamp": "2024-06-04T00:00:00Z",
+       "copiers": 107
+      },
+      {
+       "timestamp": "2024-06-05T00:00:00Z",
+       "copiers": 107
+      },
+      {
+       "timestamp": "2024-06-06T00:00:00Z",
+       "copiers": 110
+      },
+      {
+       "timestamp": "2024-06-07T00:00:00Z",
+       "copiers": 111
+      },
+      {
+       "timestamp": "2024-06-08T00:00:00Z",
+       "copiers": 113
+      },
+      {
+       "timestamp": "2024-06-09T00:00:00Z",
+       "copiers": 114
+      },
+      {
+       "timestamp": "2024-06-10T00:00:00Z",
+       "copiers": 115
+      },
+      {
+       "timestamp": "2024-06-11T00:00:00Z",
+       "copiers": 124
+      },
+      {
+       "timestamp": "2024-06-12T00:00:00Z",
+       "copiers": 140
+      },
+      {
+       "timestamp": "2024-06-13T00:00:00Z",
+       "copiers": 160
+      },
+      {
+       "timestamp": "2024-06-14T00:00:00Z",
+       "copiers": 169
+      },
+      {
+       "timestamp": "2024-06-15T00:00:00Z",
+       "copiers": 188
+      },
+      {
+       "timestamp": "2024-06-16T00:00:00Z",
+       "copiers": 190
+      },
+      {
+       "timestamp": "2024-06-17T00:00:00Z",
+       "copiers": 197
+      },
+      {
+       "timestamp": "2024-06-18T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-06-19T00:00:00Z",
+       "copiers": 206
+      },
+      {
+       "timestamp": "2024-06-20T00:00:00Z",
+       "copiers": 207
+      },
+      {
+       "timestamp": "2024-06-21T00:00:00Z",
+       "copiers": 207
+      },
+      {
+       "timestamp": "2024-06-22T00:00:00Z",
+       "copiers": 211
+      },
+      {
+       "timestamp": "2024-06-23T00:00:00Z",
+       "copiers": 214
+      },
+      {
+       "timestamp": "2024-06-24T00:00:00Z",
+       "copiers": 218
+      },
+      {
+       "timestamp": "2024-06-25T00:00:00Z",
+       "copiers": 222
+      },
+      {
+       "timestamp": "2024-06-26T00:00:00Z",
+       "copiers": 230
+      },
+      {
+       "timestamp": "2024-06-27T00:00:00Z",
+       "copiers": 236
+      },
+      {
+       "timestamp": "2024-06-28T00:00:00Z",
+       "copiers": 239
+      },
+      {
+       "timestamp": "2024-06-29T00:00:00Z",
+       "copiers": 240
+      },
+      {
+       "timestamp": "2024-06-30T00:00:00Z",
+       "copiers": 241
+      },
+      {
+       "timestamp": "2024-07-01T00:00:00Z",
+       "copiers": 243
+      },
+      {
+       "timestamp": "2024-07-02T00:00:00Z",
+       "copiers": 245
+      },
+      {
+       "timestamp": "2024-07-03T00:00:00Z",
+       "copiers": 248
+      },
+      {
+       "timestamp": "2024-07-04T00:00:00Z",
+       "copiers": 249
+      },
+      {
+       "timestamp": "2024-07-05T00:00:00Z",
+       "copiers": 250
+      },
+      {
+       "timestamp": "2024-07-06T00:00:00Z",
+       "copiers": 258
+      },
+      {
+       "timestamp": "2024-07-07T00:00:00Z",
+       "copiers": 264
+      },
+      {
+       "timestamp": "2024-07-08T00:00:00Z",
+       "copiers": 265
+      },
+      {
+       "timestamp": "2024-07-09T00:00:00Z",
+       "copiers": 269
+      },
+      {
+       "timestamp": "2024-07-10T00:00:00Z",
+       "copiers": 276
+      },
+      {
+       "timestamp": "2024-07-11T00:00:00Z",
+       "copiers": 279
+      },
+      {
+       "timestamp": "2024-07-12T00:00:00Z",
+       "copiers": 286
+      },
+      {
+       "timestamp": "2024-07-13T00:00:00Z",
+       "copiers": 286
+      },
+      {
+       "timestamp": "2024-07-14T00:00:00Z",
+       "copiers": 291
+      },
+      {
+       "timestamp": "2024-07-15T00:00:00Z",
+       "copiers": 293
+      },
+      {
+       "timestamp": "2024-07-16T00:00:00Z",
+       "copiers": 292
+      },
+      {
+       "timestamp": "2024-07-17T00:00:00Z",
+       "copiers": 296
+      },
+      {
+       "timestamp": "2024-07-18T00:00:00Z",
+       "copiers": 303
+      },
+      {
+       "timestamp": "2024-07-19T00:00:00Z",
+       "copiers": 299
+      },
+      {
+       "timestamp": "2024-07-20T00:00:00Z",
+       "copiers": 302
+      },
+      {
+       "timestamp": "2024-07-21T00:00:00Z",
+       "copiers": 305
+      },
+      {
+       "timestamp": "2024-07-22T00:00:00Z",
+       "copiers": 307
+      },
+      {
+       "timestamp": "2024-07-23T00:00:00Z",
+       "copiers": 304
+      },
+      {
+       "timestamp": "2024-07-24T00:00:00Z",
+       "copiers": 305
+      },
+      {
+       "timestamp": "2024-07-25T00:00:00Z",
+       "copiers": 302
+      },
+      {
+       "timestamp": "2024-07-26T00:00:00Z",
+       "copiers": 296
+      },
+      {
+       "timestamp": "2024-07-27T00:00:00Z",
+       "copiers": 294
+      },
+      {
+       "timestamp": "2024-07-28T00:00:00Z",
+       "copiers": 295
+      },
+      {
+       "timestamp": "2024-07-29T00:00:00Z",
+       "copiers": 295
+      },
+      {
+       "timestamp": "2024-07-30T00:00:00Z",
+       "copiers": 294
+      },
+      {
+       "timestamp": "2024-07-31T00:00:00Z",
+       "copiers": 294
+      },
+      {
+       "timestamp": "2024-08-01T00:00:00Z",
+       "copiers": 293
+      },
+      {
+       "timestamp": "2024-08-02T00:00:00Z",
+       "copiers": 293
+      },
+      {
+       "timestamp": "2024-08-03T00:00:00Z",
+       "copiers": 292
+      },
+      {
+       "timestamp": "2024-08-04T00:00:00Z",
+       "copiers": 292
+      },
+      {
+       "timestamp": "2024-08-05T00:00:00Z",
+       "copiers": 292
+      },
+      {
+       "timestamp": "2024-08-06T00:00:00Z",
+       "copiers": 280
+      },
+      {
+       "timestamp": "2024-08-07T00:00:00Z",
+       "copiers": 278
+      },
+      {
+       "timestamp": "2024-08-08T00:00:00Z",
+       "copiers": 277
+      },
+      {
+       "timestamp": "2024-08-09T00:00:00Z",
+       "copiers": 276
+      },
+      {
+       "timestamp": "2024-08-10T00:00:00Z",
+       "copiers": 276
+      },
+      {
+       "timestamp": "2024-08-11T00:00:00Z",
+       "copiers": 276
+      },
+      {
+       "timestamp": "2024-08-12T00:00:00Z",
+       "copiers": 276
+      },
+      {
+       "timestamp": "2024-08-13T00:00:00Z",
+       "copiers": 275
+      },
+      {
+       "timestamp": "2024-08-14T00:00:00Z",
+       "copiers": 274
+      },
+      {
+       "timestamp": "2024-08-15T00:00:00Z",
+       "copiers": 275
+      },
+      {
+       "timestamp": "2024-08-16T00:00:00Z",
+       "copiers": 274
+      },
+      {
+       "timestamp": "2024-08-17T00:00:00Z",
+       "copiers": 273
+      },
+      {
+       "timestamp": "2024-08-18T00:00:00Z",
+       "copiers": 273
+      },
+      {
+       "timestamp": "2024-08-19T00:00:00Z",
+       "copiers": 273
+      },
+      {
+       "timestamp": "2024-08-20T00:00:00Z",
+       "copiers": 272
+      },
+      {
+       "timestamp": "2024-08-21T00:00:00Z",
+       "copiers": 271
+      },
+      {
+       "timestamp": "2024-08-22T00:00:00Z",
+       "copiers": 269
+      },
+      {
+       "timestamp": "2024-08-23T00:00:00Z",
+       "copiers": 270
+      },
+      {
+       "timestamp": "2024-08-24T00:00:00Z",
+       "copiers": 269
+      },
+      {
+       "timestamp": "2024-08-25T00:00:00Z",
+       "copiers": 269
+      },
+      {
+       "timestamp": "2024-08-26T00:00:00Z",
+       "copiers": 269
+      },
+      {
+       "timestamp": "2024-08-27T00:00:00Z",
+       "copiers": 270
+      },
+      {
+       "timestamp": "2024-08-28T00:00:00Z",
+       "copiers": 264
+      },
+      {
+       "timestamp": "2024-08-29T00:00:00Z",
+       "copiers": 262
+      },
+      {
+       "timestamp": "2024-08-30T00:00:00Z",
+       "copiers": 263
+      },
+      {
+       "timestamp": "2024-08-31T00:00:00Z",
+       "copiers": 261
+      },
+      {
+       "timestamp": "2024-09-01T00:00:00Z",
+       "copiers": 261
+      },
+      {
+       "timestamp": "2024-09-02T00:00:00Z",
+       "copiers": 262
+      },
+      {
+       "timestamp": "2024-09-03T00:00:00Z",
+       "copiers": 262
+      },
+      {
+       "timestamp": "2024-09-04T00:00:00Z",
+       "copiers": 260
+      },
+      {
+       "timestamp": "2024-09-05T00:00:00Z",
+       "copiers": 258
+      },
+      {
+       "timestamp": "2024-09-06T00:00:00Z",
+       "copiers": 257
+      },
+      {
+       "timestamp": "2024-09-07T00:00:00Z",
+       "copiers": 258
+      },
+      {
+       "timestamp": "2024-09-08T00:00:00Z",
+       "copiers": 258
+      },
+      {
+       "timestamp": "2024-09-09T00:00:00Z",
+       "copiers": 258
+      },
+      {
+       "timestamp": "2024-09-10T00:00:00Z",
+       "copiers": 257
+      },
+      {
+       "timestamp": "2024-09-11T00:00:00Z",
+       "copiers": 256
+      },
+      {
+       "timestamp": "2024-09-12T00:00:00Z",
+       "copiers": 256
+      },
+      {
+       "timestamp": "2024-09-13T00:00:00Z",
+       "copiers": 256
+      },
+      {
+       "timestamp": "2024-09-14T00:00:00Z",
+       "copiers": 256
+      },
+      {
+       "timestamp": "2024-09-15T00:00:00Z",
+       "copiers": 255
+      },
+      {
+       "timestamp": "2024-09-16T00:00:00Z",
+       "copiers": 255
+      },
+      {
+       "timestamp": "2024-09-17T00:00:00Z",
+       "copiers": 252
+      },
+      {
+       "timestamp": "2024-09-18T00:00:00Z",
+       "copiers": 251
+      },
+      {
+       "timestamp": "2024-09-19T00:00:00Z",
+       "copiers": 251
+      },
+      {
+       "timestamp": "2024-09-20T00:00:00Z",
+       "copiers": 251
+      },
+      {
+       "timestamp": "2024-09-21T00:00:00Z",
+       "copiers": 250
+      },
+      {
+       "timestamp": "2024-09-22T00:00:00Z",
+       "copiers": 250
+      },
+      {
+       "timestamp": "2024-09-23T00:00:00Z",
+       "copiers": 250
+      },
+      {
+       "timestamp": "2024-09-24T00:00:00Z",
+       "copiers": 250
+      },
+      {
+       "timestamp": "2024-09-25T00:00:00Z",
+       "copiers": 248
+      },
+      {
+       "timestamp": "2024-09-26T00:00:00Z",
+       "copiers": 246
+      },
+      {
+       "timestamp": "2024-09-27T00:00:00Z",
+       "copiers": 245
+      },
+      {
+       "timestamp": "2024-09-28T00:00:00Z",
+       "copiers": 242
+      },
+      {
+       "timestamp": "2024-09-29T00:00:00Z",
+       "copiers": 242
+      },
+      {
+       "timestamp": "2024-09-30T00:00:00Z",
+       "copiers": 242
+      },
+      {
+       "timestamp": "2024-10-01T00:00:00Z",
+       "copiers": 240
+      },
+      {
+       "timestamp": "2024-10-02T00:00:00Z",
+       "copiers": 240
+      },
+      {
+       "timestamp": "2024-10-03T00:00:00Z",
+       "copiers": 239
+      },
+      {
+       "timestamp": "2024-10-04T00:00:00Z",
+       "copiers": 239
+      },
+      {
+       "timestamp": "2024-10-05T00:00:00Z",
+       "copiers": 239
+      },
+      {
+       "timestamp": "2024-10-06T00:00:00Z",
+       "copiers": 239
+      },
+      {
+       "timestamp": "2024-10-07T00:00:00Z",
+       "copiers": 239
+      },
+      {
+       "timestamp": "2024-10-08T00:00:00Z",
+       "copiers": 237
+      },
+      {
+       "timestamp": "2024-10-09T00:00:00Z",
+       "copiers": 234
+      },
+      {
+       "timestamp": "2024-10-10T00:00:00Z",
+       "copiers": 233
+      },
+      {
+       "timestamp": "2024-10-11T00:00:00Z",
+       "copiers": 233
+      },
+      {
+       "timestamp": "2024-10-12T00:00:00Z",
+       "copiers": 232
+      },
+      {
+       "timestamp": "2024-10-13T00:00:00Z",
+       "copiers": 232
+      },
+      {
+       "timestamp": "2024-10-14T00:00:00Z",
+       "copiers": 232
+      },
+      {
+       "timestamp": "2024-10-15T00:00:00Z",
+       "copiers": 231
+      },
+      {
+       "timestamp": "2024-10-16T00:00:00Z",
+       "copiers": 229
+      },
+      {
+       "timestamp": "2024-10-17T00:00:00Z",
+       "copiers": 229
+      },
+      {
+       "timestamp": "2024-10-18T00:00:00Z",
+       "copiers": 227
+      },
+      {
+       "timestamp": "2024-10-19T00:00:00Z",
+       "copiers": 225
+      },
+      {
+       "timestamp": "2024-10-20T00:00:00Z",
+       "copiers": 225
+      },
+      {
+       "timestamp": "2024-10-21T00:00:00Z",
+       "copiers": 225
+      },
+      {
+       "timestamp": "2024-10-22T00:00:00Z",
+       "copiers": 225
+      },
+      {
+       "timestamp": "2024-10-23T00:00:00Z",
+       "copiers": 224
+      },
+      {
+       "timestamp": "2024-10-24T00:00:00Z",
+       "copiers": 223
+      },
+      {
+       "timestamp": "2024-10-25T00:00:00Z",
+       "copiers": 224
+      },
+      {
+       "timestamp": "2024-10-26T00:00:00Z",
+       "copiers": 224
+      },
+      {
+       "timestamp": "2024-10-27T00:00:00Z",
+       "copiers": 224
+      },
+      {
+       "timestamp": "2024-10-28T00:00:00Z",
+       "copiers": 225
+      },
+      {
+       "timestamp": "2024-10-29T00:00:00Z",
+       "copiers": 221
+      },
+      {
+       "timestamp": "2024-10-30T00:00:00Z",
+       "copiers": 220
+      },
+      {
+       "timestamp": "2024-10-31T00:00:00Z",
+       "copiers": 218
+      },
+      {
+       "timestamp": "2024-11-01T00:00:00Z",
+       "copiers": 218
+      },
+      {
+       "timestamp": "2024-11-02T00:00:00Z",
+       "copiers": 219
+      },
+      {
+       "timestamp": "2024-11-03T00:00:00Z",
+       "copiers": 219
+      },
+      {
+       "timestamp": "2024-11-04T00:00:00Z",
+       "copiers": 219
+      },
+      {
+       "timestamp": "2024-11-05T00:00:00Z",
+       "copiers": 216
+      },
+      {
+       "timestamp": "2024-11-06T00:00:00Z",
+       "copiers": 218
+      },
+      {
+       "timestamp": "2024-11-07T00:00:00Z",
+       "copiers": 216
+      },
+      {
+       "timestamp": "2024-11-08T00:00:00Z",
+       "copiers": 214
+      },
+      {
+       "timestamp": "2024-11-09T00:00:00Z",
+       "copiers": 212
+      },
+      {
+       "timestamp": "2024-11-10T00:00:00Z",
+       "copiers": 212
+      },
+      {
+       "timestamp": "2024-11-11T00:00:00Z",
+       "copiers": 212
+      },
+      {
+       "timestamp": "2024-11-12T00:00:00Z",
+       "copiers": 212
+      },
+      {
+       "timestamp": "2024-11-13T00:00:00Z",
+       "copiers": 210
+      },
+      {
+       "timestamp": "2024-11-14T00:00:00Z",
+       "copiers": 210
+      },
+      {
+       "timestamp": "2024-11-15T00:00:00Z",
+       "copiers": 209
+      },
+      {
+       "timestamp": "2024-11-16T00:00:00Z",
+       "copiers": 208
+      },
+      {
+       "timestamp": "2024-11-17T00:00:00Z",
+       "copiers": 208
+      },
+      {
+       "timestamp": "2024-11-18T00:00:00Z",
+       "copiers": 208
+      },
+      {
+       "timestamp": "2024-11-19T00:00:00Z",
+       "copiers": 207
+      },
+      {
+       "timestamp": "2024-11-20T00:00:00Z",
+       "copiers": 206
+      },
+      {
+       "timestamp": "2024-11-21T00:00:00Z",
+       "copiers": 206
+      },
+      {
+       "timestamp": "2024-11-22T00:00:00Z",
+       "copiers": 205
+      },
+      {
+       "timestamp": "2024-11-23T00:00:00Z",
+       "copiers": 204
+      },
+      {
+       "timestamp": "2024-11-24T00:00:00Z",
+       "copiers": 204
+      },
+      {
+       "timestamp": "2024-11-25T00:00:00Z",
+       "copiers": 204
+      },
+      {
+       "timestamp": "2024-11-26T00:00:00Z",
+       "copiers": 203
+      },
+      {
+       "timestamp": "2024-11-27T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-11-28T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-11-29T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-11-30T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-12-01T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-12-02T00:00:00Z",
+       "copiers": 202
+      },
+      {
+       "timestamp": "2024-12-03T00:00:00Z",
+       "copiers": 202
+      },
+      {
+       "timestamp": "2024-12-04T00:00:00Z",
+       "copiers": 202
+      },
+      {
+       "timestamp": "2024-12-05T00:00:00Z",
+       "copiers": 202
+      },
+      {
+       "timestamp": "2024-12-06T00:00:00Z",
+       "copiers": 202
+      },
+      {
+       "timestamp": "2024-12-07T00:00:00Z",
+       "copiers": 202
+      },
+      {
+       "timestamp": "2024-12-08T00:00:00Z",
+       "copiers": 203
+      },
+      {
+       "timestamp": "2024-12-09T00:00:00Z",
+       "copiers": 203
+      },
+      {
+       "timestamp": "2024-12-10T00:00:00Z",
+       "copiers": 203
+      },
+      {
+       "timestamp": "2024-12-11T00:00:00Z",
+       "copiers": 203
+      },
+      {
+       "timestamp": "2024-12-12T00:00:00Z",
+       "copiers": 203
+      },
+      {
+       "timestamp": "2024-12-13T00:00:00Z",
+       "copiers": 203
+      },
+      {
+       "timestamp": "2024-12-14T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-12-15T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-12-16T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-12-17T00:00:00Z",
+       "copiers": 202
+      },
+      {
+       "timestamp": "2024-12-18T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-12-19T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-12-20T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-12-21T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-12-22T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-12-23T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-12-24T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-12-25T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-12-26T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-12-27T00:00:00Z",
+       "copiers": 201
+      },
+      {
+       "timestamp": "2024-12-28T00:00:00Z",
+       "copiers": 200
+      },
+      {
+       "timestamp": "2024-12-29T00:00:00Z",
+       "copiers": 200
+      },
+      {
+       "timestamp": "2024-12-30T00:00:00Z",
+       "copiers": 200
+      },
+      {
+       "timestamp": "2024-12-31T00:00:00Z",
+       "copiers": 200
+      },
+      {
+       "timestamp": "2025-01-01T00:00:00Z",
+       "copiers": 198
+      },
+      {
+       "timestamp": "2025-01-02T00:00:00Z",
+       "copiers": 198
+      },
+      {
+       "timestamp": "2025-01-03T00:00:00Z",
+       "copiers": 198
+      },
+      {
+       "timestamp": "2025-01-04T00:00:00Z",
+       "copiers": 198
+      },
+      {
+       "timestamp": "2025-01-05T00:00:00Z",
+       "copiers": 198
+      },
+      {
+       "timestamp": "2025-01-06T00:00:00Z",
+       "copiers": 198
+      },
+      {
+       "timestamp": "2025-01-07T00:00:00Z",
+       "copiers": 198
+      },
+      {
+       "timestamp": "2025-01-08T00:00:00Z",
+       "copiers": 199
+      },
+      {
+       "timestamp": "2025-01-09T00:00:00Z",
+       "copiers": 199
+      },
+      {
+       "timestamp": "2025-01-10T00:00:00Z",
+       "copiers": 199
+      },
+      {
+       "timestamp": "2025-01-11T00:00:00Z",
+       "copiers": 199
+      }
+     ],
+     "minCopiers": 79,
+     "maxCopiers": 307
+    }
+   },
+   "dataProviderStatus": "Active"
+  }
+ ]
+}

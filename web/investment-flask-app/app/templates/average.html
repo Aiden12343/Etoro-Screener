@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}eToro Portfolio Summary{% endblock %}
+
+{% block content %}
+<h1>Aggregated data for {{ username_count }} eToro portfolios</h1>
+<table>
+    <thead> 
+        <tr>
+            <th><a href="?sort=ticker_name&order={{ 'asc' if sort_by != 'ticker_name' or sort_order == 'desc' else 'desc' }}">Ticker Name</a></th>
+            <th><a href="?sort=long_short_ratio&order={{ 'asc' if sort_by != 'long_short_ratio' or sort_order == 'desc' else 'desc' }}">Long : Short Ratio</a></th>
+            <th><a href="?sort=average_pl&order={{ 'asc' if sort_by != 'average_pl' or sort_order == 'desc' else 'desc' }}">Average P/L</a></th>
+            <th><a href="?sort=average_value_pct&order={{ 'asc' if sort_by != 'average_value_pct' or sort_order == 'desc' else 'desc' }}">Average Value %</a></th>
+            <th><a href="?sort=average_invested_pct&order={{ 'asc' if sort_by != 'average_invested_pct' or sort_order == 'desc' else 'desc' }}">Average Invested %</a></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for data in average_data %}
+        <tr>
+            <td><a href="{{ url_for('ticker', ticker_name=data.ticker_name) }}">{{ data.ticker_name }}</a></td>
+            <td>{{ data.long_short_ratio }}</td>
+            <td class="{{ 'positive' if data.average_pl >= 0 else 'negative' }}">{{ data.average_pl }}</td>
+            <td class="{{ 'positive' if data.average_value_pct >= 0 else 'negative' }}">{{ data.average_value_pct }}</td>
+            <td class="{{ 'positive' if data.average_invested_pct >= 0 else 'negative' }}">{{ data.average_invested_pct }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
