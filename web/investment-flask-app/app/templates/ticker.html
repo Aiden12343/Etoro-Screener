@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}Ticker Breakdown{% endblock %}
+
+{% block content %}
+<h1>Ticker Breakdown for {{ ticker_name }}</h1>
+
+<table id="tickerTable">
+    <thead>
+        <tr>
+            <th><a href="?sort=username&order={{ 'asc' if sort_by != 'username' or sort_order == 'desc' else 'desc' }}">Username</a></th>
+            <th><a href="?sort=instrument_id&order={{ 'asc' if sort_by != 'instrument_id' or sort_order == 'desc' else 'desc' }}">Instrument ID</a></th>
+            <th><a href="?sort=ticker_name&order={{ 'asc' if sort_by != 'ticker_name' or sort_order == 'desc' else 'desc' }}">Ticker Name</a></th>
+            <th><a href="?sort=direction&order={{ 'asc' if sort_by != 'direction' or sort_order == 'desc' else 'desc' }}">Direction</a></th>
+            <th><a href="?sort=invested&order={{ 'asc' if sort_by != 'invested' or sort_order == 'desc' else 'desc' }}">Invested</a></th>
+            <th><a href="?sort=net_profit&order={{ 'asc' if sort_by != 'net_profit' or sort_order == 'desc' else 'desc' }}">Net Profit</a></th>
+            <th><a href="?sort=value&order={{ 'asc' if sort_by != 'value' or sort_order == 'desc' else 'desc' }}">Value</a></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for position in ticker_data %}
+        <tr>
+            <td><a href="{{ url_for('user_performance', username=position.username) }}">{{ position.username }}</a></td>
+            <td>{{ position.instrument_id }}</td>
+            <td>{{ position.ticker_name }}</td>
+            <td>{{ position.direction }}</td>
+            <td>{{ position.invested }}</td>
+            <td class="{{ 'positive' if position.net_profit >= 0 else 'negative' }}">{{ position.net_profit }}</td>
+            <td class="{{ 'positive' if position.value >= 0 else 'negative' }}">{{ position.value }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}
+
+{% block styles %}
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+        background-color: #000; /* Black background for the table */
+    }
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #333;
+        border-right: 1px solid #333;
+    }
+    th {
+        background-color: #2c3e50;
+        color: white;
+        cursor: pointer;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    th:last-child, td:last-child {
+        border-right: none;
+    }
+    tr:hover {
+        background-color: #333;
+    }
+    a {
+        color: #3498db;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .positive {
+        color: #00ff00;
+    }
+    .negative {
+        color: #ff0000;
+    }
+</style>
+{% endblock %}

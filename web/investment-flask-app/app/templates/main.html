@@ -1,0 +1,44 @@
+<!-- Example for main.html -->
+<!-- filepath: /c:/Users/aiden/OneDrive/Documents/Desktop/Stock Python Scripts/AutomatingEtoroPosts/investment-flask-app/app/templates/main.html -->
+{% extends "base.html" %}
+
+{% block title %}Main Page{% endblock %}
+
+{% block content %}
+<h1>Welcome to the Investment Dashboard</h1>
+<p>This is the main landing page.</p>
+{% endblock %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to the Investment Dashboard</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('average') }}">Averaged Portfolio Contents</a></li>
+                    <li><a href="{{ url_for('ticker') }}">Detailed Ticker Breakdown</a></li>
+                    <li><a href="{{ url_for('username', username='example_user') }}">User Performance</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Overview</h2>
+                <p>This application provides insights into investment portfolios, allowing users to analyze their investments and track performance.</p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2023 Investment Dashboard</p>
+        </footer>
+    </div>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
