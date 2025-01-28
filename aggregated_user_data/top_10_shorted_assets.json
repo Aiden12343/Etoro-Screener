@@ -1,0 +1,112 @@
+{
+    "NSDQ100": {
+        "buy_count": 23,
+        "sell_count": 24,
+        "total_invested": 0,
+        "total_net_profit": -666.32,
+        "total_value": 371.44999999999993,
+        "user_count": 47,
+        "average_invested": 0.0,
+        "average_net_profit": -14.18,
+        "average_value": 7.9
+    },
+    "GER40": {
+        "buy_count": 2,
+        "sell_count": 21,
+        "total_invested": 0,
+        "total_net_profit": -496.37,
+        "total_value": 177.37,
+        "user_count": 23,
+        "average_invested": 0.0,
+        "average_net_profit": -21.58,
+        "average_value": 7.71
+    },
+    "SPX500": {
+        "buy_count": 23,
+        "sell_count": 17,
+        "total_invested": 0,
+        "total_net_profit": -140.32,
+        "total_value": 249.23000000000005,
+        "user_count": 40,
+        "average_invested": 0.0,
+        "average_net_profit": -3.51,
+        "average_value": 6.23
+    },
+    "TSLA": {
+        "buy_count": 439,
+        "sell_count": 14,
+        "total_invested": 0,
+        "total_net_profit": 51933.65,
+        "total_value": 3626.290000000002,
+        "user_count": 453,
+        "average_invested": 0.0,
+        "average_net_profit": 114.64,
+        "average_value": 8.01
+    },
+    "GOLD": {
+        "buy_count": 13,
+        "sell_count": 13,
+        "total_invested": 0,
+        "total_net_profit": -147.71,
+        "total_value": 130.86000000000004,
+        "user_count": 26,
+        "average_invested": 0.0,
+        "average_net_profit": -5.68,
+        "average_value": 5.03
+    },
+    "EURUSD": {
+        "buy_count": 17,
+        "sell_count": 12,
+        "total_invested": 0,
+        "total_net_profit": -196.91,
+        "total_value": 221.29999999999995,
+        "user_count": 29,
+        "average_invested": 0.0,
+        "average_net_profit": -6.79,
+        "average_value": 7.63
+    },
+    "NVDA": {
+        "buy_count": 619,
+        "sell_count": 10,
+        "total_invested": 0,
+        "total_net_profit": 110019.8,
+        "total_value": 5843.549999999999,
+        "user_count": 629,
+        "average_invested": 0.0,
+        "average_net_profit": 174.91,
+        "average_value": 9.29
+    },
+    "UK100": {
+        "buy_count": 3,
+        "sell_count": 10,
+        "total_invested": 0,
+        "total_net_profit": -175.7,
+        "total_value": 127.07000000000001,
+        "user_count": 13,
+        "average_invested": 0.0,
+        "average_net_profit": -13.52,
+        "average_value": 9.77
+    },
+    "USDCAD": {
+        "buy_count": 1,
+        "sell_count": 9,
+        "total_invested": 0,
+        "total_net_profit": -155.55,
+        "total_value": 43.14000000000001,
+        "user_count": 10,
+        "average_invested": 0.0,
+        "average_net_profit": -15.56,
+        "average_value": 4.31
+    },
+    "PLTR": {
+        "buy_count": 212,
+        "sell_count": 8,
+        "total_invested": 0,
+        "total_net_profit": 47738.87,
+        "total_value": 1551.9399999999991,
+        "user_count": 220,
+        "average_invested": 0.0,
+        "average_net_profit": 216.99,
+        "average_value": 7.05
+    }
+}

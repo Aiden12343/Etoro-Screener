@@ -1,0 +1,112 @@
+{
+    "03690.HK": {
+        "buy_count": 38,
+        "sell_count": 0,
+        "total_invested": 0,
+        "total_net_profit": 3039399.37,
+        "total_value": 73.45,
+        "user_count": 69,
+        "average_invested": 0.0,
+        "average_net_profit": 44049.27,
+        "average_value": 1.06
+    },
+    "GEHC": {
+        "buy_count": 14,
+        "sell_count": 0,
+        "total_invested": 0,
+        "total_net_profit": 2202115.91,
+        "total_value": 6.09,
+        "user_count": 15,
+        "average_invested": 0.0,
+        "average_net_profit": 146807.73,
+        "average_value": 0.41
+    },
+    "FG": {
+        "buy_count": 3,
+        "sell_count": 0,
+        "total_invested": 0,
+        "total_net_profit": 640366.74,
+        "total_value": 2.01,
+        "user_count": 4,
+        "average_invested": 0.0,
+        "average_net_profit": 160091.68,
+        "average_value": 0.5
+    },
+    "PHIN": {
+        "buy_count": 5,
+        "sell_count": 0,
+        "total_invested": 0,
+        "total_net_profit": 411740.06,
+        "total_value": 4.62,
+        "user_count": 5,
+        "average_invested": 0.0,
+        "average_net_profit": 82348.01,
+        "average_value": 0.92
+    },
+    "LLYVK": {
+        "buy_count": 1,
+        "sell_count": 0,
+        "total_invested": 0,
+        "total_net_profit": 364000.0,
+        "total_value": 0.3,
+        "user_count": 2,
+        "average_invested": 0.0,
+        "average_net_profit": 182000.0,
+        "average_value": 0.15
+    },
+    "RXO": {
+        "buy_count": 1,
+        "sell_count": 0,
+        "total_invested": 0,
+        "total_net_profit": 333800.0,
+        "total_value": 0.11000000000000001,
+        "user_count": 2,
+        "average_invested": 0.0,
+        "average_net_profit": 166900.0,
+        "average_value": 0.06
+    },
+    "CXAI": {
+        "buy_count": 9,
+        "sell_count": 0,
+        "total_invested": 0,
+        "total_net_profit": 239399.77,
+        "total_value": 7.8500000000000005,
+        "user_count": 23,
+        "average_invested": 0.0,
+        "average_net_profit": 10408.69,
+        "average_value": 0.34
+    },
+    "FTRE": {
+        "buy_count": 1,
+        "sell_count": 0,
+        "total_invested": 0,
+        "total_net_profit": 117600.0,
+        "total_value": 0.31,
+        "user_count": 1,
+        "average_invested": 0.0,
+        "average_net_profit": 117600.0,
+        "average_value": 0.31
+    },
+    "BTC": {
+        "buy_count": 619,
+        "sell_count": 6,
+        "total_invested": 0,
+        "total_net_profit": 112664.66,
+        "total_value": 9144.729999999996,
+        "user_count": 625,
+        "average_invested": 0.0,
+        "average_net_profit": 180.26,
+        "average_value": 14.63
+    },
+    "NVDA": {
+        "buy_count": 619,
+        "sell_count": 10,
+        "total_invested": 0,
+        "total_net_profit": 110019.8,
+        "total_value": 5843.549999999999,
+        "user_count": 629,
+        "average_invested": 0.0,
+        "average_net_profit": 174.91,
+        "average_value": 9.29
+    }
+}

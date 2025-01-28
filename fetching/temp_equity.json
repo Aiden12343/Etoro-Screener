@@ -1,0 +1,522 @@
+[
+    {
+        "TickerName": "RMV.L",
+        "OpenRate": 674.6,
+        "ClosedRate": 643.6,
+        "IsBuy": true,
+        "dollar_return": -31.0,
+        "invested_amount": 674.6,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-30T14:31:52.42Z"
+    },
+    {
+        "TickerName": "9988.HK",
+        "OpenRate": 85.7,
+        "ClosedRate": 80.35,
+        "IsBuy": true,
+        "dollar_return": -5.3500000000000085,
+        "invested_amount": 85.7,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-22T07:06:36.47Z"
+    },
+    {
+        "TickerName": "9988.HK",
+        "OpenRate": 105.2,
+        "ClosedRate": 80.4,
+        "IsBuy": true,
+        "dollar_return": -24.799999999999997,
+        "invested_amount": 105.2,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-22T07:06:27.34Z"
+    },
+    {
+        "TickerName": "9988.HK",
+        "OpenRate": 110.1,
+        "ClosedRate": 80.35,
+        "IsBuy": true,
+        "dollar_return": -29.75,
+        "invested_amount": 110.1,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-22T07:06:07.107Z"
+    },
+    {
+        "TickerName": "9988.HK",
+        "OpenRate": 115.2,
+        "ClosedRate": 80.35,
+        "IsBuy": true,
+        "dollar_return": -34.85000000000001,
+        "invested_amount": 115.2,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-22T07:05:59.133Z"
+    },
+    {
+        "TickerName": "9988.HK",
+        "OpenRate": 120.6,
+        "ClosedRate": 80.35,
+        "IsBuy": true,
+        "dollar_return": -40.25,
+        "invested_amount": 120.6,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-22T07:05:53.813Z"
+    },
+    {
+        "TickerName": "9988.HK",
+        "OpenRate": 140.2,
+        "ClosedRate": 80.4,
+        "IsBuy": true,
+        "dollar_return": -59.79999999999998,
+        "invested_amount": 140.2,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-22T07:05:33.59Z"
+    },
+    {
+        "TickerName": "9988.HK",
+        "OpenRate": 134.5,
+        "ClosedRate": 80.4,
+        "IsBuy": true,
+        "dollar_return": -54.099999999999994,
+        "invested_amount": 134.5,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-22T07:05:26.17Z"
+    },
+    {
+        "TickerName": "9988.HK",
+        "OpenRate": 205.0,
+        "ClosedRate": 80.4,
+        "IsBuy": true,
+        "dollar_return": -124.6,
+        "invested_amount": 205.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-22T07:05:19.36Z"
+    },
+    {
+        "TickerName": "WIX",
+        "OpenRate": 66.15,
+        "ClosedRate": 216.78,
+        "IsBuy": true,
+        "dollar_return": 150.63,
+        "invested_amount": 66.15,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-21T15:16:35.793Z"
+    },
+    {
+        "TickerName": "WIX",
+        "OpenRate": 65.47,
+        "ClosedRate": 216.78,
+        "IsBuy": true,
+        "dollar_return": 151.31,
+        "invested_amount": 65.47,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-21T15:16:35.787Z"
+    },
+    {
+        "TickerName": "WIX",
+        "OpenRate": 82.86,
+        "ClosedRate": 216.78,
+        "IsBuy": true,
+        "dollar_return": 133.92000000000002,
+        "invested_amount": 82.86,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-21T15:16:35.777Z"
+    },
+    {
+        "TickerName": "SESG.PA",
+        "OpenRate": 4.514,
+        "ClosedRate": 3.799,
+        "IsBuy": true,
+        "dollar_return": -0.7150000000000003,
+        "invested_amount": 4.514,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-16T07:21:01.833Z"
+    },
+    {
+        "TickerName": "SESG.PA",
+        "OpenRate": 4.884,
+        "ClosedRate": 3.8,
+        "IsBuy": true,
+        "dollar_return": -1.0840000000000005,
+        "invested_amount": 4.884,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-16T07:21:01.82Z"
+    },
+    {
+        "TickerName": "SESG.PA",
+        "OpenRate": 5.145,
+        "ClosedRate": 3.8,
+        "IsBuy": true,
+        "dollar_return": -1.3449999999999998,
+        "invested_amount": 5.145,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-16T07:21:01.797Z"
+    },
+    {
+        "TickerName": "SESG.PA",
+        "OpenRate": 5.195,
+        "ClosedRate": 3.8,
+        "IsBuy": true,
+        "dollar_return": -1.3950000000000005,
+        "invested_amount": 5.195,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-16T07:21:01.79Z"
+    },
+    {
+        "TickerName": "SESG.PA",
+        "OpenRate": 5.145,
+        "ClosedRate": 3.8,
+        "IsBuy": true,
+        "dollar_return": -1.3449999999999998,
+        "invested_amount": 5.145,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-16T07:21:01.783Z"
+    },
+    {
+        "TickerName": "SESG.PA",
+        "OpenRate": 4.903,
+        "ClosedRate": 3.8,
+        "IsBuy": true,
+        "dollar_return": -1.1029999999999998,
+        "invested_amount": 4.903,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-16T07:21:01.773Z"
+    },
+    {
+        "TickerName": "03690.HK",
+        "OpenRate": 66.9,
+        "ClosedRate": 174.6,
+        "IsBuy": true,
+        "dollar_return": 107.69999999999999,
+        "invested_amount": 66.9,
+        "leverage": 1,
+        "CloseDateTime": "2024-09-30T05:00:03.327Z"
+    },
+    {
+        "TickerName": "RHM.DE",
+        "OpenRate": 391.4,
+        "ClosedRate": 445.4,
+        "IsBuy": true,
+        "dollar_return": 54.0,
+        "invested_amount": 391.4,
+        "leverage": 1,
+        "CloseDateTime": "2024-08-05T07:08:05.953Z"
+    },
+    {
+        "TickerName": "RHM.DE",
+        "OpenRate": 519.2,
+        "ClosedRate": 445.4,
+        "IsBuy": true,
+        "dollar_return": -73.80000000000007,
+        "invested_amount": 519.2,
+        "leverage": 1,
+        "CloseDateTime": "2024-08-05T07:08:05.923Z"
+    },
+    {
+        "TickerName": "RHM.DE",
+        "OpenRate": 474.1,
+        "ClosedRate": 445.4,
+        "IsBuy": true,
+        "dollar_return": -28.700000000000045,
+        "invested_amount": 474.1,
+        "leverage": 1,
+        "CloseDateTime": "2024-08-05T07:08:05.847Z"
+    },
+    {
+        "TickerName": "RHM.DE",
+        "OpenRate": 534.0,
+        "ClosedRate": 445.4,
+        "IsBuy": true,
+        "dollar_return": -88.60000000000002,
+        "invested_amount": 534.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-08-05T07:08:05.833Z"
+    },
+    {
+        "TickerName": "RHM.DE",
+        "OpenRate": 514.8,
+        "ClosedRate": 445.4,
+        "IsBuy": true,
+        "dollar_return": -69.39999999999998,
+        "invested_amount": 514.8,
+        "leverage": 1,
+        "CloseDateTime": "2024-08-05T07:08:05.813Z"
+    },
+    {
+        "TickerName": "UBSG.ZU",
+        "OpenRate": 25.64,
+        "ClosedRate": 27.36,
+        "IsBuy": true,
+        "dollar_return": 1.7199999999999989,
+        "invested_amount": 25.64,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-05T07:12:41.62Z"
+    },
+    {
+        "TickerName": "UBSG.ZU",
+        "OpenRate": 26.91,
+        "ClosedRate": 27.36,
+        "IsBuy": true,
+        "dollar_return": 0.4499999999999993,
+        "invested_amount": 26.91,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-05T07:12:41.607Z"
+    },
+    {
+        "TickerName": "UBSG.ZU",
+        "OpenRate": 23.47,
+        "ClosedRate": 27.36,
+        "IsBuy": true,
+        "dollar_return": 3.8900000000000006,
+        "invested_amount": 23.47,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-05T07:12:41.57Z"
+    },
+    {
+        "TickerName": "UBSG.ZU",
+        "OpenRate": 16.76,
+        "ClosedRate": 27.36,
+        "IsBuy": true,
+        "dollar_return": 10.599999999999998,
+        "invested_amount": 16.76,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-05T07:12:41.51Z"
+    },
+    {
+        "TickerName": "UBSG.ZU",
+        "OpenRate": 22.0,
+        "ClosedRate": 27.36,
+        "IsBuy": true,
+        "dollar_return": 5.359999999999999,
+        "invested_amount": 22.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-05T07:12:41.5Z"
+    },
+    {
+        "TickerName": "UBSG.ZU",
+        "OpenRate": 17.76,
+        "ClosedRate": 27.36,
+        "IsBuy": true,
+        "dollar_return": 9.599999999999998,
+        "invested_amount": 17.76,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-05T07:12:41.467Z"
+    },
+    {
+        "TickerName": "AHT.L",
+        "OpenRate": 5634.0,
+        "ClosedRate": 5206.0,
+        "IsBuy": true,
+        "dollar_return": -428.0,
+        "invested_amount": 5634.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-04T10:04:51.563Z"
+    },
+    {
+        "TickerName": "AHT.L",
+        "OpenRate": 5120.0,
+        "ClosedRate": 5206.0,
+        "IsBuy": true,
+        "dollar_return": 86.0,
+        "invested_amount": 5120.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-04T10:04:51.547Z"
+    },
+    {
+        "TickerName": "WIX",
+        "OpenRate": 66.05,
+        "ClosedRate": 165.01,
+        "IsBuy": true,
+        "dollar_return": 98.96,
+        "invested_amount": 66.05,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-13T16:04:55.597Z"
+    },
+    {
+        "TickerName": "CAVA",
+        "OpenRate": 83.86,
+        "ClosedRate": 90.29,
+        "IsBuy": true,
+        "dollar_return": 6.430000000000007,
+        "invested_amount": 83.86,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-13T15:51:53.927Z"
+    },
+    {
+        "TickerName": "CAVA",
+        "OpenRate": 83.93,
+        "ClosedRate": 90.29,
+        "IsBuy": true,
+        "dollar_return": 6.359999999999999,
+        "invested_amount": 83.93,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-13T15:51:53.897Z"
+    },
+    {
+        "TickerName": "CROX",
+        "OpenRate": 107.4,
+        "ClosedRate": 152.7,
+        "IsBuy": true,
+        "dollar_return": 45.29999999999998,
+        "invested_amount": 107.4,
+        "leverage": 1,
+        "CloseDateTime": "2024-05-29T13:30:16.803Z"
+    },
+    {
+        "TickerName": "ASC.L",
+        "OpenRate": 471.0,
+        "ClosedRate": 371.3,
+        "IsBuy": true,
+        "dollar_return": -99.69999999999999,
+        "invested_amount": 471.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-27T09:16:08.413Z"
+    },
+    {
+        "TickerName": "ASC.L",
+        "OpenRate": 531.0,
+        "ClosedRate": 371.3,
+        "IsBuy": true,
+        "dollar_return": -159.7,
+        "invested_amount": 531.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-27T09:16:08.397Z"
+    },
+    {
+        "TickerName": "ASC.L",
+        "OpenRate": 2964.0,
+        "ClosedRate": 371.3,
+        "IsBuy": true,
+        "dollar_return": -2592.7,
+        "invested_amount": 2964.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-27T09:16:08.38Z"
+    },
+    {
+        "TickerName": "ASC.L",
+        "OpenRate": 389.3,
+        "ClosedRate": 371.3,
+        "IsBuy": true,
+        "dollar_return": -18.0,
+        "invested_amount": 389.3,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-27T09:16:08.37Z"
+    },
+    {
+        "TickerName": "ASC.L",
+        "OpenRate": 3233.0,
+        "ClosedRate": 371.3,
+        "IsBuy": true,
+        "dollar_return": -2861.7,
+        "invested_amount": 3233.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-27T09:16:08.307Z"
+    },
+    {
+        "TickerName": "ASC.L",
+        "OpenRate": 2692.0,
+        "ClosedRate": 371.3,
+        "IsBuy": true,
+        "dollar_return": -2320.7,
+        "invested_amount": 2692.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-27T09:16:08.3Z"
+    },
+    {
+        "TickerName": "ASC.L",
+        "OpenRate": 737.0,
+        "ClosedRate": 371.3,
+        "IsBuy": true,
+        "dollar_return": -365.7,
+        "invested_amount": 737.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-27T09:16:08.29Z"
+    },
+    {
+        "TickerName": "KER.PA",
+        "OpenRate": 404.55,
+        "ClosedRate": 359.9,
+        "IsBuy": true,
+        "dollar_return": -44.650000000000034,
+        "invested_amount": 404.55,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-22T13:56:44.903Z"
+    },
+    {
+        "TickerName": "KER.PA",
+        "OpenRate": 381.5,
+        "ClosedRate": 359.9,
+        "IsBuy": true,
+        "dollar_return": -21.600000000000023,
+        "invested_amount": 381.5,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-22T13:56:44.873Z"
+    },
+    {
+        "TickerName": "ASC.L",
+        "OpenRate": 888.0,
+        "ClosedRate": 371.6,
+        "IsBuy": true,
+        "dollar_return": -516.4,
+        "invested_amount": 888.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-19T14:32:09.67Z"
+    },
+    {
+        "TickerName": "META",
+        "OpenRate": 207.95,
+        "ClosedRate": 461.11,
+        "IsBuy": true,
+        "dollar_return": 253.16000000000003,
+        "invested_amount": 207.95,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-05T18:32:20.28Z"
+    },
+    {
+        "TickerName": "META",
+        "OpenRate": 94.74,
+        "ClosedRate": 470.62,
+        "IsBuy": true,
+        "dollar_return": 375.88,
+        "invested_amount": 94.74,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-05T14:31:23.22Z"
+    },
+    {
+        "TickerName": "IRBT",
+        "OpenRate": 29.83,
+        "ClosedRate": 14.21,
+        "IsBuy": true,
+        "dollar_return": -15.619999999999997,
+        "invested_amount": 29.83,
+        "leverage": 1,
+        "CloseDateTime": "2024-01-29T14:31:29.037Z"
+    },
+    {
+        "TickerName": "IRBT",
+        "OpenRate": 38.7,
+        "ClosedRate": 14.21,
+        "IsBuy": true,
+        "dollar_return": -24.490000000000002,
+        "invested_amount": 38.7,
+        "leverage": 1,
+        "CloseDateTime": "2024-01-29T14:31:29.027Z"
+    },
+    {
+        "TickerName": "IRBT",
+        "OpenRate": 28.52,
+        "ClosedRate": 14.21,
+        "IsBuy": true,
+        "dollar_return": -14.309999999999999,
+        "invested_amount": 28.52,
+        "leverage": 1,
+        "CloseDateTime": "2024-01-29T14:31:28.583Z"
+    },
+    {
+        "TickerName": "9988.HK",
+        "OpenRate": 122.6,
+        "ClosedRate": 72.2,
+        "IsBuy": true,
+        "dollar_return": -50.39999999999999,
+        "invested_amount": 122.6,
+        "leverage": 1,
+        "CloseDateTime": "2024-01-29T07:21:58.477Z"
+    }
+]
